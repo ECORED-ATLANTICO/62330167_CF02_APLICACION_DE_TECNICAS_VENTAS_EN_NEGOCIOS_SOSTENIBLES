@@ -5,7 +5,7 @@
     display: block
     width: 100%
     text-align: left
-    background-color: $color-sistema-e
+    background-color: $color-primario
     padding: 15px 20px
     border-radius: 5px
     color: $color-sistema-a
@@ -69,6 +69,16 @@
         color: textColor($color-acento-contenido)
         &:before
           background-color: $color-acento-contenido
+  &.color-acento-contenido-10
+    .tabs-a__tab
+      &:hover, &:active, &:focus
+        background-color: $color-acento-contenido-10
+        color: textColor($color-acento-contenido-10)
+      &__selected
+        background-color: $color-acento-contenido-10
+        color: textColor($color-acento-contenido-10)
+        &:before
+          background-color: $color-acento-contenido-10
   &.color-acento-botones
     .tabs-a__tab
       &:hover, &:active, &:focus
@@ -89,8 +99,6 @@
 
 .tabs-b
   border-bottom: 1px solid #AFAFAF
-  &__header
-    display: flex
   &__tab
     display: flex
     flex-direction: column
@@ -147,9 +155,6 @@
         border-top: 2px solid #AFAFAF
       &:nth-child(odd)
         border-left: 2px solid #AFAFAF
-
-  &__content-item
-    display: block
 
   &.color-primario
     .tabs-b__tab--active

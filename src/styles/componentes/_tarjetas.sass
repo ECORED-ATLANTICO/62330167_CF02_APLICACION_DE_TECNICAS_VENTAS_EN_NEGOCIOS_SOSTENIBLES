@@ -24,6 +24,494 @@
   &--azul
     background-color: $color-sistema-e
 
+  // Tarjeta fondo
+
+  &--fondo-img-01
+    background-image: url(../assets/curso/tema1/img_4.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden 
+    background-repeat: no-repeat
+    background-size: cover 
+    background-position: center
+    overflow: hidden 
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+  &--fondo-img-02
+    background-image: linear-gradient(90deg, #F6EAF5 0%, #F2EEF6 35%, #EDF0F5 65%, #E8F2F5 100%)
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: center
+    pointer-events: none
+    width: 100%
+    &::before
+      content: ''
+      position: absolute
+      left: -0.71rem
+      top: -1rem
+      width: 23%
+      aspect-ratio: 543 / 429
+      background-image: url(../assets/curso/tema1/img_10.png)
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: left top
+      z-index: 0
+    h5, p
+      padding-left: 20% !important
+      overflow-wrap: break-word
+      position: relative
+      z-index: 1
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+    @media (max-width: 1030px)
+      &::before
+        left: -0.5rem
+        top: -1.2rem
+        width: 28%
+      h5, p
+        padding-left: 25% !important
+    @media (max-width: 770px)
+      &::before
+        left: -0.71rem
+        top: -1.2rem
+        width: 28%
+      background-image: url(../assets/curso/tema1/img_11.png)
+      background-size: cover
+      background-repeat: no-repeat
+      justify-content: center
+      overflow: hidden
+      aspect-ratio: auto
+      min-height: 0
+      &::before
+        content: none
+      h5, p
+        padding-left: 0px !important
+
+  &--fondo-img-03
+    background-image: linear-gradient(90deg, #ECFAF6 0%, #F2FBF4 40%, #F9FCF3 80%, #FCFDF2 100%)
+    border-radius: 2.3rem
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: center
+    pointer-events: none
+    width: 100%
+    &::before
+      content: ''
+      position: absolute
+      left: 50px
+      top: 50%
+      transform: translateY(-50%)
+      width: 5%
+      aspect-ratio: 226 / 348
+      background-image: url(../assets/curso/tema1/img_18_icono_izq.png)
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: left center
+      z-index: 0
+    &::after
+      content: ''
+      position: absolute
+      right: 5rem
+      top: 50%
+      transform: translateY(-50%)
+      width: 35%
+      height: 140%
+      background-image: url(../assets/curso/tema1/img_18_interrogacion.png), url(../assets/curso/tema1/img_18_globo.png)
+      background-size: 17% auto, 50% auto
+      background-repeat: no-repeat, no-repeat
+      background-position: left 50% center, right center
+      z-index: 0
+    h5, p
+      width: 62%
+      margin-left: 12% !important
+      margin-right: auto !important
+      text-align: left
+      overflow-wrap: break-word
+      position: relative
+      z-index: 1
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+    @media (max-width: 1030px)
+      &::before
+        left: 45px
+        top: 50%
+        transform: translateY(-50%)
+        width: 8%
+      &::after
+        content: ''
+        position: absolute
+        right: 2rem
+        top: 50%
+        transform: translateY(-50%)
+        width: 40%
+        height: 140%
+        background-image: url(../assets/curso/tema1/img_18_interrogacion.png), url(../assets/curso/tema1/img_18_globo.png)
+        background-size: 20% auto, 55% auto
+        background-repeat: no-repeat, no-repeat
+        background-position: left 45% center, right center
+        z-index: 0
+      h5, p
+        width: 65%
+    @media (max-width: 1023px)
+      &::before
+        left: 40px
+        top: 50%
+        transform: translateY(-50%)
+        width: 9%
+      &::after
+        background-image: url(../assets/curso/tema1/img_18_interrogacion.png)
+        background-size: 25% auto
+        background-position: left 95% center
+    @media (max-width: 770px)
+      &::before
+        left: 20px
+        top: 50%
+        transform: translateY(-50%)
+        width: 12%
+      &::after
+        background-image: url(../assets/curso/tema1/img_18_interrogacion.png)
+        background-size: 30% auto
+        background-position: left 100% center
+      h5, p
+        width: 78%
+
+  &--fondo-img-04
+    background-image: linear-gradient(100deg, #FCEBF7 0%, #E6F3F5 85.67%, #E5F3F5 100%)
+    border-radius: 2.3rem
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: center
+    pointer-events: none
+    width: 100%
+    &::before
+      content: ''
+      position: absolute
+      left: -10px
+      top: 52%
+      transform: translateY(-50%)
+      width: 17%
+      aspect-ratio: 468 / 298
+      background-image: url(../assets/curso/tema1/img_23_icono_izq.png)
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: left center
+      z-index: 0
+    &::after
+      content: ''
+      position: absolute
+      right: -0.75rem
+      bottom: 0rem
+      width: 40%
+      height: 100%
+      background-image: url(../assets/curso/tema1/img_23_icono_der.png), url(../assets/curso/tema1/img_23_hoja.png)
+      background-size: 43% auto, 65% auto
+      background-repeat: no-repeat, no-repeat
+      background-position: right 0px top 50%, right bottom
+      z-index: 0
+    h5, p
+      width: 55%
+      margin-left: auto !important
+      margin-right: auto !important
+      text-align: left
+      overflow-wrap: break-word
+      position: relative
+      z-index: 1
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+    @media (max-width: 1030px)
+      &::before
+        left: -25px
+        top: 52%
+        transform: translateY(-50%)
+        width: 23%
+      &::after
+        content: ''
+        position: absolute
+        right: -0.75rem
+        bottom: 0rem
+        width: 40%
+        height: 100%
+        background-image: url(../assets/curso/tema1/img_23_icono_der.png), url(../assets/curso/tema1/img_23_hoja.png)
+        background-size: 55% auto, 100% auto
+        background-repeat: no-repeat, no-repeat
+        background-position: right 0px top 50%, right bottom
+        z-index: 0
+      h5, p
+        width: 65%
+    @media (max-width: 1023px)
+      &::before
+        left: -25px
+        top: 52%
+        transform: translateY(-50%)
+        width: 20%
+      &::after
+        background-image: url(../assets/curso/tema1/img_23_icono_der.png)
+        background-size: 55% auto
+        background-position: right 0px top 50%
+    @media (max-width: 770px)
+      h5, p
+        width: 78%
+
+  &--fondo-img-05
+    background-image: linear-gradient(90deg, #FBEBF7 0%, #F3EEF6 35%, #EDF0F6 65%, #E7F3F5 100%)
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: center
+    pointer-events: none
+    width: 100%
+    &::before
+      content: ''
+      position: absolute
+      left: -0.71rem
+      top: -1rem
+      width: 23%
+      aspect-ratio: 749 / 528
+      background-image: url(../assets/curso/tema2/img_9.png)
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: left top
+      z-index: 0
+    h5, p
+      padding-left: 20% !important
+      overflow-wrap: break-word
+      position: relative
+      z-index: 1
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+    @media (max-width: 1030px)
+      &::before
+        left: -0.5rem
+        top: -1.2rem
+        width: 28%
+      h5, p
+        padding-left: 25% !important
+    @media (max-width: 770px)
+      &::before
+        content: none
+      h5, p
+        padding-left: 0px !important
+
+  &--fondo-img2-02
+    background-image: url(../assets/curso/tema2/img_8.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    border-radius: 2.3rem
+    *
+      color: textColor($color-sistema-h)
+
+  &--fondo-img-06
+    background-image: url(../assets/curso/tema2/img_12.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    border-radius: 2rem
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: center
+    pointer-events: none
+    width: 100%
+    &::after
+      content: ''
+      position: absolute
+      right: 3rem
+      top: 1.35rem
+      width: 24%
+      aspect-ratio: 803 / 732
+      background-image: url(../assets/curso/tema2/img_13.png)
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: center
+      z-index: 2
+    .tarjeta
+      position: relative
+      z-index: 1
+      margin-right: 7%
+    @media (max-width: 1025px)
+      &::after
+        content: ''
+        position: absolute
+        right: 0.2rem
+        top: 1.4rem
+        width: 46%
+        aspect-ratio: 803 / 732
+        background-image: url(../assets/curso/tema2/img_13.png)
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: center
+        z-index: 2
+    @media (max-width: 770px)
+      &::after
+        content: none
+
+  &--fondo-img-07
+    background-image: url(../assets/curso/tema2/img_16.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden 
+    background-repeat: no-repeat
+    background-size: cover 
+    background-position: center
+    overflow: hidden 
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__bullets__item--active
+      background-color: $color-primario !important
+      border-color: $color-primario !important
+      opacity: 1
+    .slyder-a__bullets__item
+      background-color: color.adjust($color-primario, $lightness: 15%)
+      border: 1px solid color.adjust($color-primario, $lightness: 15%)
+
+  //Tarjeta bg-img
+  &--bg-img
+    overflow: hidden
+    figure
+      margin: 0
+      height: 100%
+      img
+        width: 100%
+        height: 100%
+        object-fit: cover
+        object-position: center
+        display: block
+
+    &.color-primario
+      background-color: $color-primario
+      *
+        color: textColor($color-primario)
+      &--borde
+        background-color: color.adjust($color-primario, $lightness: 50%)
+        color: textColor(color.adjust($color-primario, $lightness: 50%))
+        border: solid 4px $color-primario
+    &.color-primario-5
+      background-color: $color-primario-5
+      *
+        color: textColor($color-primario-5)
+      &--borde
+        background-color: color.adjust($color-primario-5, $lightness: 50%)
+        color: textColor(color.adjust($color-primario-5, $lightness: 50%))
+        border: solid 4px $color-primario-5
+    &.color-primario-10
+      background-color: $color-primario-10
+      *
+        color: textColor($color-primario-10)
+      &--borde
+        background-color: color.adjust($color-primario-10, $lightness: 50%)
+        color: textColor(color.adjust($color-primario-10, $lightness: 50%))
+        border: solid 4px $color-primario-10
+    &.color-secundario
+      background-color: $color-secundario
+      *
+        color: textColor($color-secundario)
+      &--borde
+        background-color: color.adjust($color-secundario, $lightness: 50%)
+        color: textColor(color.adjust($color-secundario, $lightness: 50%))
+        border: solid 4px $color-secundario
+    &.color-secundario-5
+      background-color: $color-secundario-5
+      *
+        color: textColor($color-secundario-5)
+      &--borde
+        background-color: color.adjust($color-secundario-5, $lightness: 50%)
+        color: textColor(color.adjust($color-secundario-5, $lightness: 50%))
+        border: solid 4px $color-secundario-5
+    &.color-secundario-10
+      background-color: $color-secundario-10
+      *
+        color: textColor($color-secundario-10)
+      &--borde
+        background-color: color.adjust($color-secundario-10, $lightness: 50%)
+        color: textColor(color.adjust($color-secundario-10, $lightness: 50%))
+        border: solid 4px $color-secundario-10
+    &.color-terciario
+      background-color: $color-terciario
+      *
+        color: textColor($color-terciario)
+      &--borde
+        background-color: color.adjust($color-terciario, $lightness: 50%)
+        color: textColor(color.adjust($color-terciario, $lightness: 50%))
+        border: solid 4px $color-terciario
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
+      *
+        color: textColor($color-acento-contenido)
+      &--borde
+        background-color: color.adjust($color-acento-contenido, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-contenido, $lightness: 50%))
+        border: solid 4px $color-acento-contenido
+    &.color-acento-contenido-5
+      background-color: $color-acento-contenido-5
+      *
+        color: textColor($color-acento-contenido-5)
+      &--borde
+        background-color: color.adjust($color-acento-contenido-5, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-contenido-5, $lightness: 50%))
+        border: solid 4px $color-acento-contenido-5
+    &.color-acento-contenido-20
+      background-color: $color-acento-contenido-20
+      *
+        color: textColor($color-acento-contenido-20)
+      &--borde
+        background-color: color.adjust($color-acento-contenido-20, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-contenido-20, $lightness: 50%))
+        border: solid 4px $color-acento-contenido-20
+    &.color-acento-botones
+      background-color: $color-acento-botones
+      *
+        color: textColor($color-acento-botones)
+      &--borde
+        background-color: color.adjust($color-acento-botones, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-botones, $lightness: 50%))
+        border: solid 4px $color-acento-botones
+    &.color-acento-botones-5
+      background-color: $color-acento-botones-5
+      *
+        color: textColor($color-acento-botones-5)
+      &--borde
+        background-color: color.adjust($color-acento-botones-5, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-botones-5, $lightness: 50%))
+        border: solid 4px $color-acento-botones-5
+  
   &--boton
     border-radius: 20px
     background-color: $color-sistema-h
@@ -113,6 +601,14 @@
       background-color: color.adjust($color-acento-botones, $lightness: 50%)
       color: textColor(color.adjust($color-acento-botones, $lightness: 50%))
       border: solid 4px $color-acento-botones
+  &.color-adicional-1
+    background-color: $color-adicional-1
+    *
+      color: textColor($color-adicional-1)
+    &--borde
+      background-color: color.adjust($color-adicional-1, $lightness: 50%)
+      color: textColor(color.adjust($color-adicional-1, $lightness: 50%))
+      border: solid 4px $color-adicional-1
 
 // TARJETAS CON AVATAR
 .tarjeta-avatar
@@ -251,7 +747,6 @@
       background-color: $color-acento-botones
       color: textColor($color-acento-botones)
 
-
 .tarjeta-slide
   height: 100%
   position: relative
@@ -263,7 +758,6 @@
     background-position: center
     transform: translate(0,0)
     transition: transform 0.3s ease-in-out
-  
 
   &.arriba
     &:hover

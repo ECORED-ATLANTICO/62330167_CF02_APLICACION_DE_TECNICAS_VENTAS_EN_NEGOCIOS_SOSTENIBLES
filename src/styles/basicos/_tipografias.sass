@@ -1,6 +1,7 @@
 @use 'sass:color'
 @use '../variables' as *
 @use '../reset/mixins' as *
+
 .h1, .h2, .h3, .h4, .h5, .h6
   font-family: $heading-font-family
   font-weight: $heading-font-weight
@@ -87,6 +88,21 @@
       background-color: $color-acento-botones
       span
         color: textColor($color-acento-botones)
+
+.titulo-principal__numero.color-acento-botones
+  background-color: $color-acento-botones
+  margin-right: 15px
+  span
+    color: textColor($color-acento-botones)
+
+.titulo-principal__numero--sm
+  min-width: 22px
+  width: 22px
+  height: 22px
+  border-radius: 3px
+  margin-right: 10px
+  span
+    font-size: 0.85rem
 
 .titulo-segundo
   margin-bottom: 48px
@@ -201,7 +217,7 @@
     &:before
       background-color: $color-primario
   &.color-primario-20
-    background-color: color.adjust($color-primario-20, $lightness: 55%)
+    background-color: $color-adicional-2
     &:before
       background-color: $color-primario-20
   &.color-secundario
@@ -212,10 +228,18 @@
     background-color: color.adjust($color-acento-contenido, $lightness: 30%)
     &:before
       background-color: $color-acento-contenido
+  &.color-acento-contenido-20
+    background-color: $color-acento-contenido-5
+    &:before
+      background-color: $color-acento-contenido-20
   &.color-acento-botones
     background-color: color.adjust($color-acento-botones, $lightness: 35%)
     &:before
       background-color: $color-acento-botones
+  &.color-terciario
+    background-color: $color-terciario-5
+    &:before
+      background-color: $color-terciario
 
 .cajon-b
   position: relative
@@ -308,10 +332,13 @@
     @extend .lista-ul
     @extend .lista-ol--separador
   li
+    position: relative
+    padding-left: 1.3em
     > i:first-of-type
-      position: relative
+      position: absolute
+      left: 0
       top: 4px
-      margin-right: 7px
+      margin-right: 0
       vertical-align: top
     ul
       padding-left: 15px
