@@ -13,8 +13,13 @@
           img(src="@/assets/curso/tema7/img_1.png", class="img-fluid", alt="Hombre con camisa azul sostiene una tableta y un lápiz mientras piensa, con una calculadora, hojas verdes y un ícono de flechas de reciclaje en círculo.")
       .col-12.col-lg-9.mb-0
         p.mb-4(data-aos="zoom-in-right") El control de la información es un proceso fundamental en la gestión comercial, ya que permite recopilar, analizar y utilizar datos para la toma de decisiones.
-        .tarjeta.tarjeta--fondo-img-09.h-100.p-4.px-5.mb-4(data-aos="zoom-in-right")
-          p.col-10.p-3.px-0.mb-0 En los negocios sostenibles, este control facilita evaluar el desempeño de las estrategias y ajustar la propuesta comercial.
+          .tarjeta.color-secundario-5.h-100.p-3
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-10.order-2.order-lg-1.mb-0
+                p.mb-0 En los negocios sostenibles, este control facilita evaluar el desempeño de las estrategias y ajustar la propuesta comercial.
+              .col-3.col-lg-2.order-1.order-lg-2.mb-2.mb-lg-0
+                figure.d-none.d-lg-block
+                  img(src="@/assets/curso/tema4/img_12.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, en tono verde oliva, que representa el análisis de datos comerciales.")
         p.mb-0(data-aos="zoom-in-right") En este capítulo se abordan sus conceptos, herramientas, indicadores y plan de mejora, fortaleciendo la capacidad del aprendiz para analizar resultados y optimizar la gestión comercial.
 
     .bg_img_16
@@ -34,7 +39,7 @@
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-0 Los datos pueden provenir de diferentes fuentes, como ventas, interacción con clientes o resultados de campañas, la correcta interpretación de esta información permite comprender el comportamiento del cliente y ajustar la propuesta comercial según sus necesidades, esto fortalece la toma de decisiones basada en evidencia.
               .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
-                figure
+                figure.d-none.d-lg-block
                   img(src="@/assets/curso/tema4/img_12.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, en tono verde oliva, que representa el análisis de datos comerciales.")
         .col-8.col-lg-3.mb-0
           figure
@@ -122,7 +127,7 @@
             .col-12.col-lg-10.order-2.order-lg-1.mb-0
               p.mb-0 Entre los indicadores más utilizados se encuentran las ventas, la satisfacción del cliente y la tasa de conversión, estos datos permiten identificar fortalezas y debilidades en la gestión comercial, facilitando la toma de decisiones.
             .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
-              figure
+              figure.d-none.d-lg-block
                 img(src="@/assets/curso/tema4/img_12.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, en tono verde oliva, que representa la medición de resultados comerciales.")
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
@@ -195,8 +200,8 @@
         .tarjeta.tarjeta--fondo-img-08.p-4.px-5.mb-3(data-aos="zoom-in-right")
           p.col-12.col-lg-8.mb-3 A continuación, se invita a ir al siguiente #[em podcast]:
           TarjetaAudio.color-acento-contenido.p-3.px-4.col-12.col-lg-8(
-            texto="XXXXX"
-            :audio="require_src('@/assets/curso/tema4/img_16.svg')"
+            texto="Optimización estratégica informacional. "
+            :audio="require_src('@/assets/curso/podcast/podcast_2.mp3')"
             tiempo
           )
 

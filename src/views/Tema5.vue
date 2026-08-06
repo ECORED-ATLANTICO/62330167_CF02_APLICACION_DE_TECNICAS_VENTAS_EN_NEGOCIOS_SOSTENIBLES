@@ -37,7 +37,7 @@
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-0 Desde la perspectiva comercial, la propuesta es una herramienta clave para influir en la decisión de compra, no se trata solo de presentar información, sino de construir un argumento claro y coherente que conecte con el cliente, en este sentido, el enfoque debe centrarse en el valor que recibe el cliente y no únicamente en las características del producto, facilitando la toma de decisiones.
               .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
-                figure
+                figure.d-none.d-lg-block
                   img(src="@/assets/curso/tema4/img_12.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, en tono verde oliva, que representa el valor comercial de la propuesta.")
 
     

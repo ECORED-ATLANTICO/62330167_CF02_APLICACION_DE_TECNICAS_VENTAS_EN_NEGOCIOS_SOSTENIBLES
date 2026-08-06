@@ -68,7 +68,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-3.col-lg-1.mb-4.mb-lg-0
-        figure
+        figure.d-none.d-lg-block
           img(src="@/assets/curso/tema4/img_6.svg", class="img-fluid", alt="Ícono de un megáfono con un globo de diálogo que contiene líneas de texto, en tono verde oliva, que representa la comunicación y difusión de mensajes.")
       .col-12.col-lg-11.mb-0
         p.mb-0 Existen diferentes tipos de comunicación comercial que pueden ser utilizados según el objetivo y el canal, entre ellos se encuentran la comunicación informativa, persuasiva y emocional.
@@ -111,7 +111,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src="@/assets/curso/tema4/img_10.png", alt="Persona interactuando con una interfaz holográfica de datos ambientales que muestra gráficas de indicadores de carbono, energía solar y eólica, un panel 'CO2 NEUTRAL' y un medidor 'NET ZERO', junto a un portátil y paneles solares con hojas verdes.")
-      .bloque-texto-t__texto.color-secundario-5.col-11.mb-0
+      .bloque-texto-t__texto.color-secundario-5.col-12.col-lg-10.mb-0
         p.mb-0 Las herramientas de comunicación comercial permiten diseñar, gestionar y transmitir mensajes de manera efectiva hacia el cliente, estas herramientas facilitan la estructuración de la propuesta comercial, asegurando coherencia entre el mensaje, el canal y el público objetivo; en los negocios sostenibles, su uso adecuado permite comunicar el valor ambiental y social de forma clara y verificable.
 
     .bg_img_11
@@ -127,7 +127,7 @@
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-0 En el proceso comercial, el uso estratégico de estas herramientas facilita la interacción con el cliente, mejora la comprensión de la propuesta y fortalece la relación comercial. Así, las herramientas no solo transmiten información, sino que contribuyen a la construcción de confianza y credibilidad.
               .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
-                figure
+                figure.d-none.d-lg-block
                   img(src="@/assets/curso/tema4/img_12.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, en tono verde oliva, que representa el valor comercial de las herramientas de comunicación.")
 
       .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
@@ -203,8 +203,8 @@
         .tarjeta.tarjeta--fondo-img-08.p-4.px-5.mb-3(data-aos="zoom-in-right")
           p.col-12.col-lg-8.mb-3 A continuación, se invita a ir al siguiente #[em podcast]:
           TarjetaAudio.color-acento-contenido.p-3.px-4.col-12.col-lg-8(
-            texto="XXXXX"
-            :audio="require_src('@/assets/curso/tema4/img_16.svg')"
+            texto="Estrategia comunicacional comercial. "
+            :audio="require_src('@/assets/curso/podcast/podcast_1.mp3')"
             tiempo
           )
 

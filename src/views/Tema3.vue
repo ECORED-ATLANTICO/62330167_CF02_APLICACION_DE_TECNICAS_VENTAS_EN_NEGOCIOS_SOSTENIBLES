@@ -41,7 +41,7 @@
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-0 Los sellos y certificaciones son reconocimientos otorgados por entidades especializadas que validan el cumplimiento de estándares específicos en productos, servicios o procesos; en el contexto de la sostenibilidad, estos instrumentos permiten demostrar que una empresa aplica prácticas responsables, generando confianza en el consumidor y diferenciación en el mercado.
               .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
-                figure
+                figure.d-none.d-lg-block
                   img(src="@/assets/curso/tema2/img_3.svg", class="img-fluid", alt="Ícono de un planeta Tierra con una persona sonriente usando un computador portátil, que simboliza la gestión digital de la sostenibilidad.")
           p.mb-0(data-aos="zoom-in-right") Desde la perspectiva comercial, las certificaciones funcionan como evidencia objetiva que respalda las afirmaciones de sostenibilidad, esto es especialmente relevante en mercados donde los consumidores son más exigentes y buscan información verificable, de esta manera, los sellos se convierten en herramientas clave para fortalecer la propuesta de valor.
 
@@ -91,18 +91,20 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src="@/assets/curso/tema3/img_6.png", alt="Mano sosteniendo un bombillo ahorrador rodeado de íconos ecológicos en forma de panal (casa, hoja, gota de agua, bombillo, molino de viento, panel solar, automóvil eléctrico, bolsa reciclable, surtidor de gasolina y caneca de reciclaje), simbolizando la sostenibilidad ambiental en los negocios.")
-        .bloque-texto-t__texto.color-secundario-5.col-11.mb-0
+        .bloque-texto-t__texto.color-secundario-5.col-12.col-lg-10.mb-0
           p.mb-0 Las certificaciones se caracterizan por ser emitidas por entidades independientes que evalúan el cumplimiento de criterios específicos, este proceso garantiza objetividad y transparencia, lo que aumenta la confianza del consumidor. Otra característica importante es su capacidad de estandarización, ya que establecen parámetros claros que deben cumplirse, esto facilita la comparación entre productos y permite al consumidor tomar decisiones informadas. Además, las certificaciones suelen requerir auditorías periódicas, lo que asegura la continuidad de las prácticas sostenibles.
 
     p.mb-5(data-aos="zoom-in-right") Desde el punto de vista de ventas, estas características permiten a la empresa construir argumentos sólidos frente al cliente. La presencia de certificaciones reduce la incertidumbre y fortalece la percepción de valor, facilitando el proceso de decisión de compra.
 
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 1.
-      |    Características de certificaciones
-    figure(data-aos="flip-left").mb-5
-      img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-none d-lg-block", alt="Infografía tipo línea de tiempo con cuatro pasos que representan las características de las certificaciones: Verificabilidad, se basan en procesos de evaluación que permiten comprobar el cumplimiento de estándares; Transparencia, proveen información clara sobre los criterios evaluados y resultados obtenidos; Estandarización, establecen parámetros comunes que facilitan la comparación entre productos; y Seguimiento, requieren auditorías periódicas para garantizar el cumplimiento continuo.").mb-3
-      img(src='@/assets/curso/tema3/img_8.svg', class="img-fluid d-block d-lg-none", alt="Infografía tipo línea de tiempo con cuatro pasos que representan las características de las certificaciones: Verificabilidad, se basan en procesos de evaluación que permiten comprobar el cumplimiento de estándares; Transparencia, proveen información clara sobre los criterios evaluados y resultados obtenidos; Estandarización, establecen parámetros comunes que facilitan la comparación entre productos; y Seguimiento, requieren auditorías periódicas para garantizar el cumplimiento continuo.").mb-3
-      figcaption Nota. SENA, (2026).
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-10.mb-0  
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 1.
+          |    Características de certificaciones
+        figure(data-aos="flip-left").mb-5
+          img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra algunas características de las certificaciones.").mb-3
+          img(src='@/assets/curso/tema3/img_8.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra algunas características de las certificaciones.").mb-3
+          figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-0
@@ -134,7 +136,7 @@
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-0 En la construcción de una propuesta comercial sostenible, el uso adecuado de certificaciones fortalece la credibilidad, mientras que el uso inadecuado de sellos puede generar desconfianza. Por ello, es necesario diferenciar claramente estos elementos y utilizarlos de manera coherente en la comunicación comercial.
               .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
-                figure
+                figure.d-none.d-lg-block
                   img(src="@/assets/curso/tema1/img_8.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, representando el precio justo para los productores.")
         .col-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
           figure

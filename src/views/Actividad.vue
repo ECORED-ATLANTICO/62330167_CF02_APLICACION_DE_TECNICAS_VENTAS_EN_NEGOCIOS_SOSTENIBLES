@@ -11,7 +11,11 @@
 
 <script>
 import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
-
+import imagen1 from '@/assets/actividad/imagen1.png'
+import imagen2 from '@/assets/actividad/imagen2.png'
+import imagen3 from '@/assets/actividad/imagen3.png'
+import imagen4 from '@/assets/actividad/imagen4.png'
+import imagen5 from '@/assets/actividad/imagen5.png'
 export default {
   name: 'ActividadDidactica',
   components: {
@@ -19,10 +23,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Conceptos en comercialización sostenible',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con comercialización sostenible.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,61 +34,59 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué propósito tiene el biocomercio en los mercados sostenibles?',
+          imagen: imagen1,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Promover el aprovechamiento sostenible de la biodiversidad.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Incrementar la explotación indiscriminada de recursos.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Sustituir las normas ambientales existentes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Reducir la participación de comunidades locales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué caracteriza principalmente al comercio justo?',
+          imagen: imagen1,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Competencia basada únicamente en precios bajos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Relaciones comerciales equitativas y transparentes.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Eliminación de acuerdos con productores.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Exclusividad para mercados internacionales.',
               esCorrecta: false,
             },
           ],
@@ -93,30 +95,30 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué función cumple la certificación FLO?',
+          imagen: imagen1,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Incrementar únicamente la productividad agrícola.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Sustituir la responsabilidad social empresarial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto:
+                'Verificar el cumplimiento de estándares de comercio justo.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Eliminar procesos de trazabilidad comercial.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -124,30 +126,29 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué fortalece la responsabilidad social empresarial?',
+          imagen: imagen1,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Disminuir la confianza de los grupos interesados.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Reducir la transparencia organizacional.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'Limitar las relaciones con la comunidad.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto: 'Integrar impactos económicos, sociales y ambientales.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -155,30 +156,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué riesgo genera el greenwashing para las organizaciones?',
+          imagen: imagen2,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+              texto: 'Deteriorar la credibilidad frente al consumidor.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Incrementar automáticamente la fidelización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Fortalecer certificaciones ambientales oficiales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Reducir la necesidad de evidencia verificable.',
               esCorrecta: false,
             },
           ],
@@ -187,29 +186,29 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué característica identifica una práctica de greenwashing?',
+          imagen: imagen2,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Uso de certificaciones verificables internacionalmente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Comunicación ambiental engañosa sin evidencia comprobable.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Transparencia en la información corporativa.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Divulgación de indicadores ambientales auditados.',
               esCorrecta: false,
             },
           ],
@@ -218,29 +217,29 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué aportan los sellos ambientales al consumidor?',
+          imagen: imagen2,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Reducen la necesidad de información verificable.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Sustituyen completamente las normas legales.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Facilitan decisiones sustentadas en confianza y evidencia.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Garantizan exclusivamente precios más bajos.',
               esCorrecta: false,
             },
           ],
@@ -250,29 +249,30 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué diferencia existe entre sello y certificación ambiental?',
+          imagen: imagen2,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Ambos representan exactamente el mismo proceso.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Ninguno requiere criterios de evaluación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ambos sustituyen la legislación ambiental vigente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'La certificación verifica mediante auditorías requisitos establecidos.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -281,19 +281,29 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué fortalece el <em>storytelling</em> en la comunicación comercial?',
+          imagen: imagen3,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'La conexión emocional con el consumidor.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'La eliminación de objetivos comerciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La sustitución del análisis de mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La reducción del posicionamiento empresarial.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -302,18 +312,29 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué función cumple un <em>brief</em> en comunicación comercial?',
+          imagen: imagen3,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Eliminar la planificación de campañas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Orientar estratégicamente el desarrollo de la comunicación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir el análisis del público objetivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazar los objetivos organizacionales.',
               esCorrecta: false,
             },
           ],
@@ -322,20 +343,30 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué elementos integra una propuesta comercial?',
+          imagen: imagen3,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Objetivos comerciales alineados con necesidades del cliente.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Información sin relación con el mercado objetivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mensajes ambiguos y sin diferenciación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Acciones comerciales sin planificación previa.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -343,19 +374,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué favorece una propuesta comercial bien estructurada?',
+          imagen: imagen3,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Incrementar la incertidumbre del cliente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Comunicar claramente el valor ofrecido.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la diferenciación competitiva.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar argumentos comerciales relevantes.',
               esCorrecta: false,
             },
           ],
@@ -364,19 +404,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué refleja la satisfacción del cliente después de comprar?',
+          imagen: imagen4,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Exclusivamente el precio del producto.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Únicamente la cantidad de publicidad recibida.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El grado de cumplimiento de sus expectativas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Solamente el volumen de ventas empresarial.',
               esCorrecta: false,
             },
           ],
@@ -385,19 +434,28 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Por qué medir la satisfacción del cliente es importante?',
+          imagen: imagen4,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Permite eliminar los procesos de seguimiento.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Sustituye el análisis del mercado objetivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reduce la necesidad de mejorar procesos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Facilita identificar oportunidades de mejora continua.',
               esCorrecta: true,
             },
           ],
@@ -406,19 +464,183 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué finalidad tiene controlar la información comercial?',
+          imagen: imagen4,
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Garantizar información confiable para la toma de decisiones.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Disminuir el acceso a datos relevantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar el seguimiento de indicadores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir los sistemas de información.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué herramienta facilita controlar información comercial?',
+          imagen: imagen4,
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Manual impreso de procedimientos obsoletos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sistema de gestión de información empresarial.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Catálogo físico de productos desactualizado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Organigrama institucional sin indicadores.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué permiten evaluar los indicadores comerciales empresariales?',
+          imagen: imagen5,
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Únicamente el tamaño de la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solo la antigüedad de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El desempeño frente a objetivos establecidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Exclusivamente el número de empleados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué propósito tiene un plan de mejora organizacional?',
+          imagen: imagen5,
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar el análisis de resultados obtenidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir los objetivos estratégicos institucionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la participación de los equipos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Optimizar procesos mediante acciones correctivas planificadas.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué fortalece el seguimiento continuo de indicadores comerciales?',
+          imagen: imagen5,
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La toma de decisiones basada en evidencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La eliminación de controles internos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La reducción del análisis empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La sustitución de los planes comerciales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué resultado genera integrar comunicación, control y mejora continua?',
+          imagen: imagen5,
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar la incertidumbre estratégica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir la competitividad organizacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Fortalecer la gestión comercial sostenible.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar la adaptación al mercado.',
               esCorrecta: false,
             },
           ],
@@ -429,78 +651,6 @@ export default {
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
     },
   }),
 }

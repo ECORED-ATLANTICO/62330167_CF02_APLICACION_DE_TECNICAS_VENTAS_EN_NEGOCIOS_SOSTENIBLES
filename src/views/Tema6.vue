@@ -34,7 +34,7 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src="@/assets/curso/tema6/img_4.png", alt="Cuatro compañeros de oficina conversan y sonríen alrededor de una mesa, uno sostiene un globo terráqueo, otra un panel solar y otra una carpeta con el símbolo de reciclaje, con un molino de viento y paneles solares de fondo.")
-        .bloque-texto-t__texto.color-secundario-5.col-11.mb-0
+        .bloque-texto-t__texto.color-secundario-5.col-12.col-lg-10.mb-0
           p.mb-0 La satisfacción del cliente se define como el nivel de cumplimiento de las expectativas del cliente frente a un producto o servicio, esta percepción se construye a partir de la experiencia del cliente durante todo el proceso de compra, incluyendo la comunicación, la entrega y el uso del producto. En el contexto sostenible, también se evalúa la coherencia entre el discurso y la práctica.
 
       .row.justify-content-center.mb-4
@@ -87,7 +87,7 @@
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-0 Además, la satisfacción influye en la percepción de la marca y en su posicionamiento en el mercado. Clientes satisfechos generan recomendaciones positivas, lo que contribuye al crecimiento del negocio. En el contexto sostenible, esto es aún más relevante, ya que los consumidores valoran la coherencia y la responsabilidad.
               .col-3.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0
-                figure
+                figure.d-none.d-lg-block
                   img(src="@/assets/curso/tema4/img_12.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, en tono verde oliva, que representa el valor comercial de la satisfacción del cliente.")
 
       .tarjeta.color-secundario-5.p-4.px-5.mb-5(data-aos="zoom-in-right")

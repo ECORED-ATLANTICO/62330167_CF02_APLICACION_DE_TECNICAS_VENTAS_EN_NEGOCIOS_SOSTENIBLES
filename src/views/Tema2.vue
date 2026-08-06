@@ -21,7 +21,7 @@
                 p.mb-3 Comprender este fenómeno permite identificar riesgos en la comunicación comercial y fortalecer la transparencia en las propuestas de valor.
                 p.mb-0 En este capítulo se abordan su concepto, características y tipos, facilitando el desarrollo de estrategias comerciales coherentes y alineadas con principios de sostenibilidad.
               .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
-                figure
+                figure.d-none.d-lg-block
                   img(src="@/assets/curso/tema2/img_3.svg", class="img-fluid", alt="Ícono de un planeta Tierra con una persona sonriente usando un computador portátil, que simboliza la gestión digital de la sostenibilidad.")
 
       .subtitulo-destacado.mb-4(data-aos="flip-left")
@@ -33,7 +33,7 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src="@/assets/curso/tema2/img_4.png", alt="Banner con la palabra GREENWASHING sobre el rostro ilustrado de una persona sonriente pintado de verde con una brocha, junto a billetes de dólar, paneles solares y plantas, representando el lavado de imagen ambiental.")
-        .bloque-texto-t__texto.color-secundario-5.col-11.mb-0
+        .bloque-texto-t__texto.color-secundario-5.col-12.col-lg-10.mb-0
           p.mb-0 El #[em greenwashing] se refiere a las prácticas mediante las cuales una empresa comunica de manera engañosa o exagerada los beneficios ambientales de sus productos o servicios, este fenómeno busca generar una percepción positiva en el consumidor sin que exista un respaldo real en las prácticas empresariales, en el contexto comercial, representan un riesgo para la credibilidad de la marca y la confianza del cliente.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
@@ -215,7 +215,7 @@
             .col-12.col-lg-10.order-2.order-lg-1.mb-0
               p.mb-0 Los tipos de #[em greenwashing] permiten clasificar las distintas formas en que las empresas pueden comunicar de manera engañosa sus prácticas sostenibles, esta clasificación facilita identificar patrones comunes y prevenir errores en la construcción de propuestas comerciales. En el contexto de ventas, reconocer estos tipos es fundamental para evitar afectar la credibilidad de la marca y la confianza del cliente.
             .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
-              figure
+              figure.d-none.d-lg-block
                 img(src="@/assets/curso/tema2/img_3.svg", class="img-fluid", alt="Ícono de un planeta Tierra con una persona sonriente usando un computador portátil, que simboliza la gestión digital de la sostenibilidad.")
         p.mb-0(data-aos="zoom-in-right") Uno de los tipos más comunes es el uso de afirmaciones sin evidencia, donde se comunican beneficios ambientales sin respaldo verificable. Otro tipo frecuente es la irrelevancia, cuando se destacan características que no aportan valor real en términos de sostenibilidad. Estas prácticas pueden generar percepciones equivocadas en el consumidor, afectando su decisión de compra.
 
