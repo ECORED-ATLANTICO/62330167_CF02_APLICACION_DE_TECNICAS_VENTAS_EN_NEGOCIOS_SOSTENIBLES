@@ -16,7 +16,7 @@
             p.mb-0 El #[em biocomercio] y el #[em comercio justo] constituyen enfoques fundamentales para el desarrollo de negocios sostenibles, al integrar criterios ambientales, sociales y económicos en las actividades comerciales.
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+          .col-12.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
             figure
               img(src="@/assets/curso/tema1/img_3.png", class="img-fluid", alt="Mujer sonriente con camisa de jean sostiene una tableta; a su alrededor, íconos ilustrados de hojas, el planeta Tierra con flechas de reciclaje y una calculadora, representando la gestión sostenible de negocios.")
           .col-12.col-lg-9.mb-0
@@ -45,10 +45,10 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-9.order-2.order-lg-1.mb-0
                 p.mb-0 En el contexto del #[em comercio justo], la certificación FLO (#[em Fairtrade Labelling Organizations]) representa uno de los principales mecanismos de validación, garantizando que los productos cumplen criterios relacionados con precios justos, condiciones laborales dignas y sostenibilidad. Por su parte, la responsabilidad social empresarial (RSE) complementa este enfoque al integrar prácticas éticas y sostenibles en la gestión empresarial, fortaleciendo la coherencia entre la propuesta comercial y las acciones de la organización.
-              .col-3.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0
+              .col-3.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema1/img_8.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, representando el precio justo para los productores.")
-        .col-6.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        .col-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src="@/assets/curso/tema1/img_9.png", class="img-fluid", alt="Mujer sonriente en una reunión de oficina sostiene una medalla con el sello de certificación Fairtrade, rodeada de íconos de una batería recargable y un planeta con flechas de reciclaje.")
 
@@ -67,7 +67,7 @@
             h2.subtitulo-destacado__texto Principios
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+          .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
             figure
               img(src="@/assets/curso/tema1/img_13.png", class="img-fluid", alt="Hombre con gafas sonríe mientras usa una tableta, rodeado de ilustraciones de molinos de viento, paneles solares, hojas y un planeta con flechas de reciclaje, representando la energía renovable y la sostenibilidad.")
           .col-12.col-lg-9.mb-0
@@ -76,7 +76,7 @@
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-lg-10.order-2.order-lg-1.mb-0
                   p.mb-0 En el caso del #[em comercio justo], sus principios incluyen la transparencia, el respeto por los derechos laborales, la equidad en las relaciones comerciales y el desarrollo de capacidades en los productores. Estos elementos fortalecen la confianza entre los actores de la cadena y generan valor agregado en los productos, lo que influye en la percepción del consumidor.
-                .col-3.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0
+                .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                   figure
                     img(src="@/assets/curso/tema1/img_8.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, representando el precio justo para los productores.")
 
@@ -84,25 +84,25 @@
           p.mb-0 Empresas que aplican estos principios logran diferenciarse en el mercado, ya que ofrecen productos alineados con valores sociales y ambientales. Esto no solo mejora su posicionamiento, sino que también facilita la construcción de relaciones comerciales sostenibles, basadas en la confianza y la responsabilidad. Los principios del #[em biocomercio] y #[em comercio justo], son:
 
         .row.justify-content-center.mb-5.mt-4
-          .col-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
+          .col-12.col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
             .tarjeta.color-primario-5.text-center.p-4.h-100
               figure.col-6.mx-auto
                 img.mb-3(src="@/assets/curso/tema1/img_14.svg", alt="Ícono circular de una hoja con flechas de reciclaje, que representa el uso sostenible.")
               h5 Uso sostenible
               p.mb-0 Garantiza el aprovechamiento responsable y equilibrado de los recursos naturales, promoviendo conservación ambiental y disponibilidad futura para próximas generaciones sostenibles.
-          .col-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
+          .col-12.col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
             .tarjeta.color-primario-5.text-center.p-4.h-100
               figure.col-6.mx-auto
                 img.mb-3(src="@/assets/curso/tema1/img_15.svg", alt="Ícono circular de unas manos sosteniendo tres figuras de personas, que representa la equidad.")
               h5 Equidad
               p.mb-0 Promueve relaciones comerciales justas y equilibradas, asegurando beneficios compartidos entre productores, empresas, consumidores y demás actores involucrados responsablemente.
-          .col-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
+          .col-12.col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
             .tarjeta.color-primario-5.text-center.p-4.h-100
               figure.col-6.mx-auto
                 img.mb-3(src="@/assets/curso/tema1/img_16.svg", alt="Ícono circular de un documento con una hoja, que representa la transparencia.")
               h5 Transparencia
               p.mb-0 Implica claridad y acceso confiable a la información sobre procesos, prácticas comerciales y decisiones dentro de toda la cadena productiva.
-          .col-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
+          .col-12.col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
             .tarjeta.color-primario-5.text-center.p-4.h-100
               figure.col-6.mx-auto
                 img.mb-3(src="@/assets/curso/tema1/img_17.svg", alt="Ícono circular de unas manos sosteniendo el planeta, que representa la responsabilidad social.")
@@ -126,7 +126,7 @@
       .bg_img_3
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+          .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
             figure
               img(src="@/assets/curso/tema1/img_21.png", class="img-fluid", alt="Alcancía transparente en forma de cerdito con un surtidor de gasolina hecho de césped en su interior, junto a una rama de hojas verdes, un globo terráqueo con flechas de reciclaje y una calculadora, representando el ahorro y la rentabilidad económica sostenible.")
           .col-12.col-lg-9.mb-0
@@ -134,7 +134,7 @@
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-lg-10.order-2.order-lg-1.mb-0
                   p.mb-0 En el caso del #[em comercio justo], los criterios se centran en garantizar condiciones equitativas en la cadena de valor, incluyendo precios justos, respeto por los derechos laborales y transparencia en las relaciones comerciales. Estos elementos fortalecen la confianza del consumidor, quien percibe mayor valor en productos que cumplen con estándares éticos y sostenibles.
-                .col-3.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0
+                .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                   figure
                     img(src="@/assets/curso/tema1/img_8.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, representando el precio justo para los productores.")
             p.mb-0(data-aos="zoom-in-right") Desde la perspectiva de la venta, los criterios no solo permiten validar prácticas empresariales, sino que se convierten en argumentos comerciales. Es decir, una empresa que cumple estos criterios puede comunicar de manera clara su valor diferencial, influyendo directamente en la decisión de compra del cliente.
@@ -150,11 +150,11 @@
                 p.mb-0 Asegura condiciones laborales dignas y respeto por los derechos humanos.
               .tarjeta.tarjeta-tabs-a__tarjeta.color-primario-5.h-100.p-5(titulo="Transparencia comercial")
                 p.mb-0 Implica claridad en la información sobre procesos, origen y características del producto.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+          .col-12.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="flip-left")
             figure
               img.img-fluid(src="@/assets/curso/tema1/img_22.png", alt="Dos vendedores de un mercado ecológico, con delantales verdes de 'Asoproorgánicos Mercado Ecológico Cali', junto a un puesto con vegetales frescos y una balanza antigua, rodeados de vegetación exuberante.")
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-0
         .col-12.col-lg-10.mb-0
           .tarjeta.tarjeta--fondo-img-04.h-100.p-4.px-5(data-aos="zoom-in-right")
             h5.mb-3 Cita de reflexión

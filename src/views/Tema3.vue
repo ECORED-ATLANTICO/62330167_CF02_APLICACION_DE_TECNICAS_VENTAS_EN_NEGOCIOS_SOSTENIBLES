@@ -10,18 +10,18 @@
     .bg_img_7
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-        .col-12.col-lg-9.mb-0
+        .col-12.col-lg-9.mb-0.order-2.order-lg-1.mb-0
           .row.align-items-center.mb-4
-            .col-12.col-lg-5.mb-3.mb-lg-0
+            .col-12.col-lg-5.mb-4.mb-lg-0.order-2.order-lg-1.mb-0
               figure
                 img(src="@/assets/curso/tema3/img_2.png", class="img-fluid", alt="Vista aérea de un bosque verde con un sello de certificación blanco en forma de medalla con un check y cinco estrellas, un ícono de planeta Tierra con flechas de reciclaje y una batería recargable, representando la validación de prácticas sostenibles.")
-            .col-12.col-lg-7.mb-0
-              .tarjeta.color-primario-10.h-100.p-4
+            .col-12.col-lg-7.mb-0.order-1.order-lg-2.mb-4.mb-lg-0
+              .tarjeta.color-primario-10.h-100.p-5.px-4
                 p.mb-0 Los sellos y certificaciones son mecanismos que permiten validar prácticas sostenibles en productos y servicios, generando confianza en los consumidores.
           .tarjeta.color-adicional-1.p-4
             p.mb-3 Su correcta comprensión facilita la diferenciación en el mercado y fortalece la credibilidad de la propuesta comercial.
             p.mb-0 En este capítulo se abordan su concepto, características y diferencias, permitiendo al aprendiz identificar su valor como herramienta estratégica en la comunicación y comercialización de negocios sostenibles.
-        .col-8.col-lg-3.mb-0
+        .col-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
           figure
             img(src="@/assets/curso/tema3/img_3.png", class="img-fluid", alt="Hombre con casco y chaleco de seguridad amarillo sonríe mientras sostiene planos de construcción, rodeado de molinos de viento, paneles solares y plantas, con un ícono de planeta Tierra con flechas de reciclaje.")
 
@@ -32,7 +32,7 @@
           h2.subtitulo-destacado__texto Concepto
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-        .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        .col-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src="@/assets/curso/tema3/img_4.png", class="img-fluid", alt="Dos trabajadores con cascos y chalecos de seguridad revisan una carpeta al aire libre bajo un cielo nublado, con un ícono de planeta Tierra con flechas de reciclaje y una batería recargable.")
         .col-12.col-lg-9.mb-0
@@ -40,7 +40,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-0 Los sellos y certificaciones son reconocimientos otorgados por entidades especializadas que validan el cumplimiento de estándares específicos en productos, servicios o procesos; en el contexto de la sostenibilidad, estos instrumentos permiten demostrar que una empresa aplica prácticas responsables, generando confianza en el consumidor y diferenciación en el mercado.
-              .col-3.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0
+              .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema2/img_3.svg", class="img-fluid", alt="Ícono de un planeta Tierra con una persona sonriente usando un computador portátil, que simboliza la gestión digital de la sostenibilidad.")
           p.mb-0(data-aos="zoom-in-right") Desde la perspectiva comercial, las certificaciones funcionan como evidencia objetiva que respalda las afirmaciones de sostenibilidad, esto es especialmente relevante en mercados donde los consumidores son más exigentes y buscan información verificable, de esta manera, los sellos se convierten en herramientas clave para fortalecer la propuesta de valor.
@@ -133,10 +133,10 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-0 En la construcción de una propuesta comercial sostenible, el uso adecuado de certificaciones fortalece la credibilidad, mientras que el uso inadecuado de sellos puede generar desconfianza. Por ello, es necesario diferenciar claramente estos elementos y utilizarlos de manera coherente en la comunicación comercial.
-              .col-3.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0
+              .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema1/img_8.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, representando el precio justo para los productores.")
-        .col-6.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0
+        .col-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
           figure
             img(src="@/assets/curso/tema3/img_11.png", class="img-fluid", alt="Dos profesionales revisan indicadores de sostenibilidad en una tableta dentro de una bodega con plantas y cajas, con una pantalla de fondo que muestra gráficas, un ícono de planeta Tierra con flechas de reciclaje y una batería recargable.")
 
@@ -305,7 +305,7 @@
               td.text-start
                 a(href="https://www.usgbc.org" target="_blank") U.S. Green Building Council
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-0
       .col-12.col-lg-10.mb-0
         .tarjeta.tarjeta--fondo-img-04.h-100.py-4.py-xl-5.px-5(data-aos="zoom-in-right")
           h5.mb-3 Cita de reflexión

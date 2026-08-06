@@ -10,7 +10,7 @@
     .bg_img_4
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-        .col-8.col-lg-4.mb-3.mb-lg-0
+        .col-12.col-lg-4.mb-4.mb-lg-0
           figure
             img(src="@/assets/curso/tema2/img_2.png", class="img-fluid", alt="Mujer señalando con un lápiz un tablero impreso de indicadores ESG (ambientales, sociales y de gobernanza), rodeada de una planta, un panel solar y accesorios de oficina, con íconos decorativos de un planeta Tierra y una batería recargable.")
         .col-12.col-lg-8.mb-0
@@ -20,7 +20,7 @@
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-3 Comprender este fenómeno permite identificar riesgos en la comunicación comercial y fortalecer la transparencia en las propuestas de valor.
                 p.mb-0 En este capítulo se abordan su concepto, características y tipos, facilitando el desarrollo de estrategias comerciales coherentes y alineadas con principios de sostenibilidad.
-              .col-3.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0
+              .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema2/img_3.svg", class="img-fluid", alt="Ícono de un planeta Tierra con una persona sonriente usando un computador portátil, que simboliza la gestión digital de la sostenibilidad.")
 
@@ -37,7 +37,7 @@
           p.mb-0 El #[em greenwashing] se refiere a las prácticas mediante las cuales una empresa comunica de manera engañosa o exagerada los beneficios ambientales de sus productos o servicios, este fenómeno busca generar una percepción positiva en el consumidor sin que exista un respaldo real en las prácticas empresariales, en el contexto comercial, representan un riesgo para la credibilidad de la marca y la confianza del cliente.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-      .col-3.col-lg-1.mb-3.mb-lg-0
+      .col-3.col-lg-1.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/img_5.svg", class="img-fluid", alt="Ícono de un puño cerrado con dos flechas verdes hacia arriba y dos hojas, que simboliza la fuerza y el crecimiento sostenible del consumidor informado.")
       .col-12.col-lg-11.mb-0
@@ -47,7 +47,7 @@
       .col-12.col-lg-10
         .tarjeta.tarjeta--fondo-img2-02.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-3.col-lg-2
+            .col-3.col-sm-3.col-lg-2.mb-4.mb-lg-0
               img(src="@/assets/curso/tema2/img_7.svg", alt="Ícono de una claqueta de cine con una hoja verde, que representa un recurso audiovisual educativo.")
             .col-10
               .row.justify-content-between.align-items-center
@@ -74,17 +74,17 @@
           h2.subtitulo-destacado__texto Características
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-        .col-12.col-lg-9.mb-0
+        .col-12.col-lg-9.mb-0.order-2.order-lg-1.mb-0
           .row.align-items-center.mb-4
-            .col-12.col-lg-5.mb-3.mb-lg-0
+            .col-12.col-lg-5.mb-4.mb-lg-0.order-2.order-lg-1.mb-4.mb-lg-0
               figure
                 img(src="@/assets/curso/tema2/img_10.png", class="img-fluid", alt="Valla publicitaria de H&M en Times Square que promociona la colección 'H&M Conscious', rodeada de peatones, con un ícono decorativo de un planeta Tierra y flechas de reciclaje.")
-            .col-12.col-lg-7.mb-0
+            .col-12.col-lg-7.mb-0.order-1.order-lg-2.mb-4.mb-lg-0
               .tarjeta.color-primario-10.h-100.p-4
                 p.mb-0 El #[em greenwashing] se caracteriza por el uso de mensajes ambiguos, exageraciones o información incompleta sobre el impacto ambiental de los productos, estas prácticas buscan influir en la percepción del consumidor, generando una imagen de sostenibilidad que no corresponde con la realidad.
           .tarjeta.color-adicional-1.p-4
             p.mb-0 Otra característica es la falta de evidencia verificable, donde las empresas hacen afirmaciones sin respaldo en certificaciones o datos claros, esto dificulta que el consumidor valide la información, aumentando el riesgo de desinformación. Además, el uso de términos vagos como "eco" o "natural" sin contexto puede generar confusión.
-        .col-8.col-lg-3.mb-0
+        .col-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
           figure
             img(src="@/assets/curso/tema2/img_11.png", class="img-fluid", alt="Ilustración de una persona disfrazada de superhéroe 'Green Wash' con capa y antifaz verdes, junto a una camiseta de H&M colgada de un árbol y una bolsa de papel con el sello ECO, rodeada de hojas y un planeta Tierra con flechas de reciclaje.")
 
@@ -129,7 +129,7 @@
                 li
                   i.fas.fa-play
                   |  Genera interpretación confusa.
-            .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0
+            .col-12.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
               figure
                 img.img-fluid(src="@/assets/curso/tema2/img_17.png", alt="Botellas de repelente natural y bioinsecticida junto a plantas de lavanda en un jardín, con un ícono decorativo de un planeta Tierra y una batería recargable.")
           .row.justify-content-center.align-items-center
@@ -149,7 +149,7 @@
                 li
                   i.fas.fa-play
                   |  Impide validar sus afirmaciones.
-            .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0
+            .col-12.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
               figure
                 img.img-fluid(src="@/assets/curso/tema2/img_18.png", alt="Persona marcando una casilla de verificación en un portapapeles, junto a un planeta Tierra, un molino de viento, un panel solar y una planta en una sala de reuniones, con un ícono decorativo de una batería recargable.")
           .row.justify-content-center.align-items-center
@@ -169,7 +169,7 @@
                 li
                   i.fas.fa-play
                   |  Beneficios desproporcionados.
-            .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0
+            .col-12.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
               figure
                 img.img-fluid(src="@/assets/curso/tema2/img_19.png", alt="Botella de jabón de manos 'ECOS Plant Powered' junto a plantas en macetas, con íconos decorativos de un planeta Tierra y una batería recargable.")
           .row.justify-content-center.align-items-center
@@ -189,7 +189,7 @@
                 li
                   i.fas.fa-play
                   |  Genera percepción engañosa.
-            .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0
+            .col-12.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
               figure
                 img.img-fluid(src="@/assets/curso/tema2/img_20.png", alt="Envases de cartón y plástico para productos lácteos junto a hojas verdes y una caja blanca, con un ícono decorativo de un planeta Tierra y una batería recargable.")
 
@@ -206,7 +206,7 @@
         h2.subtitulo-destacado__texto Tipos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src="@/assets/curso/tema2/img_21.png", class="img-fluid", alt="Dos etiquetas colgantes con el sello 'climate neutral' y un ícono de globo terráqueo, junto a una calculadora y una rama de hojas verdes, con un ícono decorativo de un planeta Tierra con flechas de reciclaje, representando la verificación y el cálculo de la huella de carbono.")
       .col-12.col-lg-9.mb-0
@@ -214,7 +214,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-12.col-lg-10.order-2.order-lg-1.mb-0
               p.mb-0 Los tipos de #[em greenwashing] permiten clasificar las distintas formas en que las empresas pueden comunicar de manera engañosa sus prácticas sostenibles, esta clasificación facilita identificar patrones comunes y prevenir errores en la construcción de propuestas comerciales. En el contexto de ventas, reconocer estos tipos es fundamental para evitar afectar la credibilidad de la marca y la confianza del cliente.
-            .col-3.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0
+            .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
               figure
                 img(src="@/assets/curso/tema2/img_3.svg", class="img-fluid", alt="Ícono de un planeta Tierra con una persona sonriente usando un computador portátil, que simboliza la gestión digital de la sostenibilidad.")
         p.mb-0(data-aos="zoom-in-right") Uno de los tipos más comunes es el uso de afirmaciones sin evidencia, donde se comunican beneficios ambientales sin respaldo verificable. Otro tipo frecuente es la irrelevancia, cuando se destacan características que no aportan valor real en términos de sostenibilidad. Estas prácticas pueden generar percepciones equivocadas en el consumidor, afectando su decisión de compra.
@@ -249,7 +249,7 @@
             td.text-start Uso de sellos o símbolos que aparentan certificación sin respaldo oficial.
             td.text-start Un producto incluye un logo propio que simula una certificación ambiental.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10.mb-0
         .tarjeta.tarjeta--fondo-img-04.h-100.py-4.py-xl-5.px-5(data-aos="zoom-in-right")
           h5.mb-3 Cita de reflexión

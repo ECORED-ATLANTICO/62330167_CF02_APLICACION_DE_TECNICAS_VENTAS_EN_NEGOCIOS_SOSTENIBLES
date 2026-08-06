@@ -10,7 +10,7 @@
     .bg_img_10
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-        .col-12.col-lg-3.mb-3.mb-lg-0
+        .col-8.col-lg-3.mb-4.mb-lg-0
           figure
             img(src="@/assets/curso/tema4/img_2.png", class="img-fluid", alt="Dos trabajadores con casco y chaleco de seguridad amarillos revisan paneles solares en una azotea, el hombre señala a lo lejos mientras la mujer sostiene una tableta, con un ícono de planeta Tierra con flechas de reciclaje y una batería recargable.")
         .col-12.col-lg-9.mb-0
@@ -18,7 +18,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-0 La comunicación comercial es un elemento clave en la construcción de propuestas sostenibles, ya que permite transmitir de manera clara y efectiva el valor del producto al cliente. A través de herramientas como el #[em storytelling] y el #[em brief], las empresas pueden estructurar mensajes coherentes y persuasivos.
-              .col-3.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0
+              .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema4/img_3.svg", class="img-fluid", alt="Ícono circular de dos flechas verdes en forma de reciclaje, que simboliza la comunicación cíclica entre la empresa y el cliente.")
           .cajon.color-acento-contenido-20.p-4.mb-5(data-aos="zoom-in-right")
@@ -32,16 +32,16 @@
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-right")
         .col-12.col-lg-9.order-2.order-lg-1.mb-0
-          .row.align-items-center.mb-4
-            .col-8.col-lg-5.mb-3.mb-lg-0
+          .row.align-items-center.mb-4.mb-0
+            .col-12.col-lg-5.mb-4.mb-lg-0.mb-0.order-2.order-lg-1.mb-0
               figure
                 img(src="@/assets/curso/tema4/img_4.png", class="img-fluid", alt="Dos hombres y una mujer con casco y chaleco de seguridad se saludan de mano frente a un panel solar y vegetación, con un ícono de planeta Tierra con flechas de reciclaje y una batería recargable.")
-            .col-12.col-lg-7.mb-0
-              .tarjeta.color-primario-10.h-100.p-4
+            .col-12.col-lg-7.mb-0.order-1.order-lg-2.mb-4.mb-lg-0
+              .tarjeta.color-primario-10.h-100.p-3.px-5
                 p.mb-0 La comunicación comercial es el proceso mediante el cual una empresa transmite el valor de sus productos o servicios a sus clientes, utilizando diferentes canales y estrategias. En el contexto de los negocios sostenibles, esta comunicación debe ser clara, coherente y respaldada por prácticas reales, evitando generar confusión o desconfianza en el consumidor.
-          .tarjeta.color-adicional-1.h-100.p-4
+          .tarjeta.color-adicional-1.h-100.p-3.px-5.mb-0
             p.mb-0 El #[em storytelling] es una herramienta que permite comunicar a través de historias, facilitando la conexión emocional con el cliente, este enfoque no solo transmite información, sino que genera identificación, lo que influye en la percepción de valor. En productos sostenibles, contar la historia del origen, los procesos y el impacto puede ser un factor diferenciador.
-        .col-6.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0
+        .col-8.col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2.mb-4.mb-lg-0
           figure
             img(src="@/assets/curso/tema4/img_5.png", class="img-fluid", alt="Hombre con casco y chaleco de seguridad amarillos sostiene una tableta, rodeado de molinos de viento, hojas, paneles solares y un ícono de planeta Tierra con flechas de reciclaje.")
 
@@ -67,7 +67,7 @@
         h2.subtitulo-destacado__texto Tipos
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-      .col-3.col-lg-1.mb-3.mb-lg-0
+      .col-3.col-lg-1.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema4/img_6.svg", class="img-fluid", alt="Ícono de un megáfono con un globo de diálogo que contiene líneas de texto, en tono verde oliva, que representa la comunicación y difusión de mensajes.")
       .col-12.col-lg-11.mb-0
@@ -92,7 +92,7 @@
           |    Tipos de comunicación comercial
         figure(data-aos="flip-left").mb-5
           img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-none d-lg-block", alt="Infografía con tres tarjetas numeradas que muestra los tipos de comunicación comercial: 1. Informativa, con un ícono de información, presenta características y beneficios del producto de manera clara; 2. Persuasiva, con un ícono de personas conversando, busca influir en la decisión de compra del cliente; 3. Emocional, con un ícono de una cabeza con un cerebro, genera conexión con el cliente a través de valores y experiencias.").mb-3
-          img(src='@/assets/curso/tema4/img_9.svg', class="img-fluid d-block d-lg-none", alt="Infografía con tres tarjetas numeradas que muestra los tipos de comunicación comercial: 1. Informativa, con un ícono de información, presenta características y beneficios del producto de manera clara; 2. Persuasiva, con un ícono de personas conversando, busca influir en la decisión de compra del cliente; 3. Emocional, con un ícono de una cabeza con un cerebro, genera conexión con el cliente a través de valores y experiencias.").mb-3
+          img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-block d-lg-none", alt="Infografía con tres tarjetas numeradas que muestra los tipos de comunicación comercial: 1. Informativa, con un ícono de información, presenta características y beneficios del producto de manera clara; 2. Persuasiva, con un ícono de personas conversando, busca influir en la decisión de compra del cliente; 3. Emocional, con un ícono de una cabeza con un cerebro, genera conexión con el cliente a través de valores y experiencias.").mb-3
           figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
@@ -117,7 +117,7 @@
     .bg_img_11
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-        .col-12.col-lg-3.mb-3.mb-lg-0
+        .col-8.col-lg-3.mb-4.mb-lg-0
           figure
             img(src="@/assets/curso/tema4/img_11.png", class="img-fluid", alt="Mujer señalando una pantalla con la palabra 'Emission' y gráficos de sostenibilidad, junto a un computador portátil, plantas y termos, con un ícono de planeta Tierra con flechas de reciclaje.")
         .col-12.col-lg-9.mb-0
@@ -126,7 +126,7 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-10.order-2.order-lg-1.mb-0
                 p.mb-0 En el proceso comercial, el uso estratégico de estas herramientas facilita la interacción con el cliente, mejora la comprensión de la propuesta y fortalece la relación comercial. Así, las herramientas no solo transmiten información, sino que contribuyen a la construcción de confianza y credibilidad.
-              .col-3.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0
+              .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema4/img_12.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, en tono verde oliva, que representa el valor comercial de las herramientas de comunicación.")
 
@@ -154,11 +154,11 @@
             tr
               td.text-start Contenido digital
               td.text-start Incluye recursos digitales informativos y educativos que fortalecen la comunicación comercial, generan interacción y posicionan productos o servicios en línea.
-              td.text-start Blogs corporativos, videos explicativos, podcasts, infografías y publicaciones educativas compartidas en páginas web y redes sociales empresariales.
+              td.text-start #[em Blogs] corporativos, videos explicativos, #[em podcasts], infografías y publicaciones educativas compartidas en páginas web y redes sociales empresariales.
             tr.bg-table-01
               td.text-start Material informativo
               td.text-start Comprende documentos físicos o digitales que presentan características, beneficios y especificaciones del producto, facilitando comprensión y apoyo durante la venta.
-              td.text-start Catálogos, fichas técnicas, brochures, portafolios comerciales y manuales utilizados para informar clientes sobre productos sostenibles y servicios empresariales.
+              td.text-start Catálogos, fichas técnicas, #[em brochures], portafolios comerciales y manuales utilizados para informar clientes sobre productos sostenibles y servicios empresariales.
 
     .tarjeta.tarjeta--fondo-img-06.p-5.mb-5(data-aos="zoom-in-right")
       .tarjeta.tarjeta--blanca.p-5
@@ -173,17 +173,17 @@
         h2.subtitulo-destacado__texto Elementos
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-      .col-12.col-lg-9.mb-0
+      .col-12.col-lg-9.mb-0.mb-lg-0.order-2.order-lg-1.mb-0
         .row.align-items-center.mb-4
-          .col-12.col-lg-5.mb-3.mb-lg-0
+          .col-12.col-lg-5.mb-4.mb-lg-0.mb-lg-0.order-2.order-lg-1.mb-0
             figure
               img(src="@/assets/curso/tema4/img_13.png", class="img-fluid", alt="Hombre con tableta señala un tablero con indicadores ESG mientras una mujer observa, con un molino de viento de escritorio, plantas y un ícono de planeta Tierra con flechas de reciclaje y una batería recargable.")
-          .col-12.col-lg-7.mb-0
+          .col-12.col-lg-7.mb-0.order-1.order-lg-2.mb-4.mb-lg-0
             .tarjeta.color-primario-10.h-100.p-4
               p.mb-0 Los elementos de la comunicación comercial son los componentes que estructuran el mensaje y permiten su correcta transmisión, entre estos se encuentran el emisor, el mensaje, el canal, el receptor y la retroalimentación, en el contexto sostenible, es fundamental que estos elementos estén alineados para garantizar coherencia y claridad en la comunicación.
         .tarjeta.color-secundario-5.p-4
           p.mb-0 El mensaje debe ser claro, relevante y respaldado por evidencia, especialmente en productos sostenibles. El canal debe ser adecuado al público objetivo, y el emisor debe generar confianza. La retroalimentación permite ajustar la comunicación según la respuesta del cliente, mejorando la efectividad del proceso.
-      .col-8.col-lg-3.mb-0
+      .col-8.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema4/img_14.png", class="img-fluid", alt="Hombre con carpeta y mujer sonriente revisan una tableta juntos en una oficina, con un ícono de planeta Tierra con flechas de reciclaje y una batería recargable.")
 
@@ -197,6 +197,22 @@
           img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none", alt="Diagrama cíclico con cinco elementos numerados de la comunicación comercial: 01. Emisor, empresa o persona que transmite el mensaje al cliente; 02. Mensaje, información que se desea transmitir sobre el producto o servicio; 03. Canal, medio utilizado para transmitir el mensaje; 04. Receptor, cliente o público objetivo que recibe el mensaje; 05. Retroalimentación, respuesta del cliente frente al mensaje recibido, la cual permite mejorar el mensaje, los canales y la relación con los clientes.").mb-3
 
     p.mb-5(data-aos="zoom-in-right") A continuación, se dispone de un #[em podcast] que aborda los principales elementos de la comunicación comercial. Se recomienda escuchar atentamente el contenido para facilitar la comprensión de los conceptos y fortalecer el aprendizaje antes de continuar con el desarrollo del curso.
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
+      .col-12.col-lg-10.mb-0
+        .tarjeta.tarjeta--fondo-img-08.p-4.px-5.mb-3(data-aos="zoom-in-right")
+          p.col-12.col-lg-8.mb-3 A continuación, se invita a ir al siguiente #[em podcast]:
+          TarjetaAudio.color-acento-contenido.p-3.px-4.col-12.col-lg-8(
+            texto="XXXXX"
+            :audio="require_src('@/assets/curso/tema4/img_16.svg')"
+            tiempo
+          )
+
+    .row.justify-content-center.mb-0
+      .col-12.col-lg-10.mb-0
+        .tarjeta.tarjeta--fondo-img-04.h-100.py-4.py-xl-5.px-5(data-aos="zoom-in-right")
+          h5.mb-3 Cita de reflexión
+          p.mb-0 “Comunicar con integridad implica decir la verdad con claridad, generando confianza y coherencia en cada interacción con los demás.”
 </template>
 
 <script>
