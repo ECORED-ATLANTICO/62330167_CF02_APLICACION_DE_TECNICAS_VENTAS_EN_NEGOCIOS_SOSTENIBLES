@@ -262,14 +262,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

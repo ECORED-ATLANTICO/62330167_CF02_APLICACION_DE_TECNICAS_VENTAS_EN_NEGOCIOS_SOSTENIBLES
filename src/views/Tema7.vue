@@ -219,14 +219,6 @@ export default {
   data: () => ({
     mostrarIndicador: true,
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 
