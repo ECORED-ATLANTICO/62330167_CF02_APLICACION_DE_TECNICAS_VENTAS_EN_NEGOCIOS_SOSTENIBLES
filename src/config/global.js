@@ -32,8 +32,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo:
-          'Biocomercio (<em>Biotrade</em>), Comercio justo - Certificación FLO - RSE',
+        titulo: 'Biocomercio, comercio justo y certificación FLO - RSE',
         desarrolloContenidos: true,
       },
       {
@@ -175,7 +174,7 @@ export default {
     {
       referencia:
         'Domínguez Casas, Á. M. (2017). <em>Los programas de fidelización online: un estudio desde el engagement marketing y las comunidades de marca</em> [Tesis doctoral, Universidad de Valladolid]. Dialnet.',
-      link: '',
+      link: 'https://dialnet.unirioja.es/servlet/tesis?codigo=155310',
     },
     {
       referencia:
@@ -185,27 +184,27 @@ export default {
     {
       referencia:
         'Manzanal, M., Chávez, E., & Rivero, A. (2020). <em>Los elementos de la negociación: ¿cómo intervienen dentro de las etapas?</em> <em>Revista CEA</em>, 4(1). Academia.edu.',
-      link: '',
+      link: 'https://www.academia.edu/85655717/Los_elementos_de_la_negociación_cómo_intervienen_dentro_de_las_etapas',
     },
     {
       referencia:
         'Miranda Plata, P. A. (2020). <em>Creación e implementación de formatos para el seguimiento de los procesos del área comercial</em>. Universidad Santo Tomás. Repositorio USTA.',
-      link: '',
-    },
-    {
-      referencia:
-        'Niño Sierra, D. F. (s. f.). <em>Fidelización del cliente</em>. Fundación Universitaria UNIEMPRESARIAL. CCB.',
-      link: '',
+      link: 'https://repository.usta.edu.co/bitstreams/e621c052-d5e3-4a71-a432-c15eef450ce2/download',
     },
     {
       referencia:
         'Naciones Unidas. (s. f.). <em>Objetivos de Desarrollo Sostenible</em>.',
-      link: 'https://sdgs.un.org/es/goals',
+      link: 'https://sdgs.un.org/es/goals ',
+    },
+    {
+      referencia:
+        'Niño Sierra, D. F. (s. f.). <em>Fidelización del cliente</em>. Fundación Universitaria UNIEMPRESARIAL. CCB.',
+      link: 'https://bibliotecadigital.ccb.org.co/bitstreams/a4b5d64d-a649-4170-8d61-6b8b400e6dbd/download',
     },
     {
       referencia:
         'Salcedo, J. (2021). <em>Estrategias y táctica de negociación</em>. Universidad San Marcos. USAM.',
-      link: '',
+      link: 'https://repositorio.usam.ac.cr/xmlui/bitstream/handle/11506/1771/LEC%20HAB%20BLA%200003%202021.pdf',
     },
     {
       referencia:

@@ -49,7 +49,7 @@
       p.mb-0 Por su parte, el #[em brief] es un documento que organiza la información clave de la propuesta comercial, permitiendo estructurar mensajes claros y coherentes, este elemento es fundamental para garantizar que la comunicación esté alineada con los objetivos comerciales y las características del producto.
 
     .tarjeta.tarjeta--fondo-img-06.p-5.mb-5(data-aos="zoom-in-right")
-      .tarjeta.tarjeta--blanca.p-5
+      .tarjeta.tarjeta--blanca.p-3.p-lg-4
         p.col-12.col-lg-8.col-xl-10.mb-0
           strong Ejemplo aplicado.
           |  Nike combina comunicación informativa, persuasiva y emocional en sus campañas. Informa características del producto, persuade mediante beneficios y conecta emocionalmente con valores del consumidor. Esta integración fortalece su posicionamiento, demostrando que una comunicación equilibrada puede influir efectivamente en la decisión de compra en mercados globales altamente competitivos.
@@ -66,6 +66,8 @@
       .subtitulo-destacado__fondo
         h2.subtitulo-destacado__texto Tipos
 
+    
+
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-3.col-lg-1.mb-4.mb-lg-0
         figure.d-none.d-lg-block
@@ -78,9 +80,8 @@
         .col-8.col-lg-5.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
           figure.p-0.m-0.h-100
             img.p-0.w-100.h-100.object-fit-cover(src="@/assets/curso/tema4/img_7.png", class="img-fluid", alt="Grupo de personas reunidas alrededor de una mesa de madera con laptops, tabletas, cuadernos y plantas, colaborando en una sesión de trabajo.")
-        .col-12.col-lg-7.p-5.ps-5.ps-lg-0
-            p.mb-0 Existen diferentes tipos de comunicación comercial que pueden ser utilizados según el objetivo y el canal, entre ellos se encuentran la comunicación informativa, persuasiva y emocional.
-            p.mb-0 La comunicación informativa se centra en presentar características y beneficios del producto, mientras que la persuasiva busca influir en la decisión de compra. Por su parte, la comunicación emocional utiliza elementos que generan conexión con el cliente, siendo especialmente efectiva en productos sostenibles.
+        .col-12.col-lg-7.p-5.ps-5.ps-lg-3
+          p.mb-0 La comunicación informativa se centra en presentar características y beneficios del producto, mientras que la persuasiva busca influir en la decisión de compra. Por su parte, la comunicación emocional utiliza elementos que generan conexión con el cliente, siendo especialmente efectiva en productos sostenibles.
 
     .cajon.color-primario-20.mb-5.p-4
       p.mb-0 En el contexto comercial, la combinación de estos tipos permite construir mensajes más completos y efectivos, esto facilita que el cliente comprenda, valore y se identifique con la propuesta, aumentando la probabilidad de compra.
@@ -91,8 +92,8 @@
           h5 Figura 2.
           |    Tipos de comunicación comercial
         figure(data-aos="flip-left").mb-5
-          img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-none d-lg-block", alt="Infografía con tres tarjetas numeradas que muestra los tipos de comunicación comercial: 1. Informativa, con un ícono de información, presenta características y beneficios del producto de manera clara; 2. Persuasiva, con un ícono de personas conversando, busca influir en la decisión de compra del cliente; 3. Emocional, con un ícono de una cabeza con un cerebro, genera conexión con el cliente a través de valores y experiencias.").mb-3
-          img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-block d-lg-none", alt="Infografía con tres tarjetas numeradas que muestra los tipos de comunicación comercial: 1. Informativa, con un ícono de información, presenta características y beneficios del producto de manera clara; 2. Persuasiva, con un ícono de personas conversando, busca influir en la decisión de compra del cliente; 3. Emocional, con un ícono de una cabeza con un cerebro, genera conexión con el cliente a través de valores y experiencias.").mb-3
+          img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-none d-lg-block", alt="Diagrama sobre tres tipos de comunicación comercial: informativa, que comunica características y beneficios del producto; persuasiva, que influye en la decisión de compra; y emocional, que genera conexión con el cliente mediante valores y experiencias.").mb-3
+          img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-block d-lg-none", alt="Diagrama sobre tres tipos de comunicación comercial: informativa, que comunica características y beneficios del producto; persuasiva, que influye en la decisión de compra; y emocional, que genera conexión con el cliente mediante valores y experiencias.").mb-3
           figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
@@ -154,14 +155,14 @@
             tr
               td.text-start Contenido digital
               td.text-start Incluye recursos digitales informativos y educativos que fortalecen la comunicación comercial, generan interacción y posicionan productos o servicios en línea.
-              td.text-start #[em Blogs] corporativos, videos explicativos, #[em podcasts], infografías y publicaciones educativas compartidas en páginas web y redes sociales empresariales.
+              td.text-start #[em Blogs] corporativos, videos explicativos, pódcasts, infografías y publicaciones educativas compartidas en páginas web y redes sociales empresariales.
             tr.bg-table-01
               td.text-start Material informativo
               td.text-start Comprende documentos físicos o digitales que presentan características, beneficios y especificaciones del producto, facilitando comprensión y apoyo durante la venta.
               td.text-start Catálogos, fichas técnicas, #[em brochures], portafolios comerciales y manuales utilizados para informar clientes sobre productos sostenibles y servicios empresariales.
 
     .tarjeta.tarjeta--fondo-img-06.p-5.mb-5(data-aos="zoom-in-right")
-      .tarjeta.tarjeta--blanca.p-5
+      .tarjeta.tarjeta--blanca.p-3.p-lg-4
         p.col-12.col-lg-8.col-xl-10.mb-0
           strong Ejemplo aplicado.
           |  Coca-Cola utiliza redes sociales, contenido digital y campañas multimedia para comunicar sus iniciativas sostenibles. Estas herramientas permiten segmentar audiencias y transmitir mensajes claros. Su uso estratégico facilita la interacción con clientes, fortaleciendo la comunicación comercial y mejorando la percepción de la marca en distintos mercados internacionales.
@@ -189,6 +190,54 @@
 
     .cajon.color-primario-20.p-4.mb-5
       p.mb-0 En el ámbito comercial, comprender estos elementos facilita la construcción de mensajes más efectivos. Esto permite conectar con el cliente, responder a sus necesidades y fortalecer la propuesta de valor, influyendo directamente en la decisión de compra.
+    
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
+      .col-12.col-lg-10.mb-0
+        .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
+          .col-md-6.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-primario.p-3
+              .tarjeta-numerada__numero
+                .h3 01
+              .tarjeta.color-primario.text-center.p-2(data-aos="fade").mb-3
+                p.mb-0
+                  b Emisor
+              p.text-center Empresa o persona que transmite el mensaje al cliente.
+
+          .col-md-6.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-acento-contenido-10.p-3
+              .tarjeta-numerada__numero
+                .h3 02
+              .tarjeta.color-acento-contenido-10.text-center.p-2(data-aos="fade").mb-3
+                p.mb-0
+                  b Mensaje
+              p.text-center Información que se desea transmitir sobre el producto o servicio.
+
+          .col-md-6.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-acento-botones.p-3
+              .tarjeta-numerada__numero
+                .h3 03
+              .tarjeta.color-acento-botones.text-center.p-2(data-aos="fade").mb-3
+                p.mb-0
+                  b Canal
+              p.text-center Medio utilizado para transmitir el mensaje.
+
+          .col-md-6.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-acento-contenido-10.p-3
+              .tarjeta-numerada__numero
+                .h3 04
+              .tarjeta.color-acento-contenido-10.text-center.p-2(data-aos="fade").mb-3
+                p.mb-0
+                  b Receptor
+              p.text-center Cliente o público objetivo que recibe el mensaje. 
+          
+          .col-md-6.col-xl.mb-4.mb-xl-0
+            .tarjeta-numerada.color-primario.p-3
+              .tarjeta-numerada__numero
+                .h3 05
+              .tarjeta.color-primario.text-center.p-2(data-aos="fade").mb-3
+                .p.mb-0
+                  b Retroalimentación
+              p.text-center Respuesta del cliente frente al mensaje recibido.
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
       .col-12.col-lg-10.mb-0
@@ -196,14 +245,14 @@
           img(src='@/assets/curso/tema4/img_15.svg', class="img-fluid d-none d-lg-block", alt="Diagrama cíclico con cinco elementos numerados de la comunicación comercial: 01. Emisor, empresa o persona que transmite el mensaje al cliente; 02. Mensaje, información que se desea transmitir sobre el producto o servicio; 03. Canal, medio utilizado para transmitir el mensaje; 04. Receptor, cliente o público objetivo que recibe el mensaje; 05. Retroalimentación, respuesta del cliente frente al mensaje recibido, la cual permite mejorar el mensaje, los canales y la relación con los clientes.").mb-3
           img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none", alt="Diagrama cíclico con cinco elementos numerados de la comunicación comercial: 01. Emisor, empresa o persona que transmite el mensaje al cliente; 02. Mensaje, información que se desea transmitir sobre el producto o servicio; 03. Canal, medio utilizado para transmitir el mensaje; 04. Receptor, cliente o público objetivo que recibe el mensaje; 05. Retroalimentación, respuesta del cliente frente al mensaje recibido, la cual permite mejorar el mensaje, los canales y la relación con los clientes.").mb-3
 
-    p.mb-5(data-aos="zoom-in-right") A continuación, se dispone de un #[em podcast] que aborda los principales elementos de la comunicación comercial. Se recomienda escuchar atentamente el contenido para facilitar la comprensión de los conceptos y fortalecer el aprendizaje antes de continuar con el desarrollo del curso.
+    p.mb-5(data-aos="zoom-in-right") A continuación, se dispone de un pódcast que aborda los principales elementos de la comunicación comercial. Se recomienda escuchar atentamente el contenido para facilitar la comprensión de los conceptos y fortalecer el aprendizaje antes de continuar con el desarrollo del curso.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-10.mb-0
         .tarjeta.tarjeta--fondo-img-08.p-4.px-5.mb-3(data-aos="zoom-in-right")
-          p.col-12.col-lg-8.mb-3 A continuación, se invita a ir al siguiente #[em podcast]:
+          p.col-12.col-lg-8.mb-3 A continuación, se invita a ir al siguiente pódcast:
           TarjetaAudio.color-acento-contenido.p-3.px-4.col-12.col-lg-8(
-            texto="Estrategia comunicacional comercial. "
+            texto="Estrategia comunicacional comercial "
             :audio="require_src('@/assets/curso/podcast/podcast_1.mp3')"
             tiempo
           )

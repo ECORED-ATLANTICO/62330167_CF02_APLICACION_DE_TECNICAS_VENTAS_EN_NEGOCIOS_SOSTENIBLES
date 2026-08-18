@@ -39,19 +39,19 @@
 
       .row.justify-content-center.mb-4
         .col-12.col-lg-10
-          .tarjeta.tarjeta--fondo-img2-02.p-4.px-5(data-aos="zoom-in-right")
+          .tarjeta.tarjeta--fondo-img2-02.p-3.p-lg-4(data-aos="zoom-in-right")
             .row.justify-content-around.align-items-center
               .col-3.col-sm-3.col-lg-2.mb-4.mb-lg-0
-                img(src="@/assets/curso/tema2/img_7.svg", alt="Ícono de una claqueta de cine con una hoja verde, que representa un recurso audiovisual educativo.")
+                img(src="@/assets/curso/common/img_7.png", alt="Ícono de una claqueta de cine con una hoja verde, que representa un recurso audiovisual educativo.")
               .col-10
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     h4.mb-3 Cultura de servicio al cliente
-                    p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que analiza la importancia del servicio al cliente en la sostenibilidad empresarial, destacando fidelización, atención personalizada, canales de comunicación y ventajas competitivas.
+                    p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que analiza la importancia del servicio al cliente en la sostenibilidad empresarial, destacando fidelización, atención personalizada, canales de comunicación y ventajas competitivas.
                   .col-sm-auto
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=SOmQLHJ4jLE" target="_blank")
                       span Ir al recurso
-                      i.fas.fa-file-download
+                      i.fa-brands.fa-youtube
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-10.col-lg-3.mb-4.mb-lg-0

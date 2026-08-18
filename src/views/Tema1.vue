@@ -13,14 +13,14 @@
           .bloque-texto-t__img.mb-0
             img(src="@/assets/curso/tema1/img_2.png", alt="Mano sosteniendo un bombillo ahorrador rodeado de íconos ecológicos en forma de panal (hoja, gota de agua, casa, bombillo, batería, engranaje de reciclaje, mapa mundial y red de conexiones), simbolizando la sostenibilidad ambiental en los negocios.")
           .bloque-texto-t__texto.color-secundario-5.col-12.col-lg-10.mb-0
-            p.mb-0 El #[em biocomercio] y el #[em comercio justo] constituyen enfoques fundamentales para el desarrollo de negocios sostenibles, al integrar criterios ambientales, sociales y económicos en las actividades comerciales.
+            p.mb-0 El  biocomercio y el comercio justo constituyen enfoques fundamentales para el desarrollo de negocios sostenibles, al integrar criterios ambientales, sociales y económicos en las actividades comerciales.
 
         .row.justify-content-center.align-items-center.mb-5
           .col-12.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")
             figure
               img(src="@/assets/curso/tema1/img_3.png", class="img-fluid", alt="Mujer sonriente con camisa de jean sostiene una tableta; a su alrededor, íconos ilustrados de hojas, el planeta Tierra con flechas de reciclaje y una calculadora, representando la gestión sostenible de negocios.")
           .col-12.col-lg-9.mb-0
-            p.mb-4(data-aos="zoom-in-right") Estos conceptos permiten comprender cómo las empresas pueden generar valor respetando la #[em biodiversidad] y promoviendo condiciones equitativas.
+            p.mb-4(data-aos="zoom-in-right") Estos conceptos permiten comprender cómo las empresas pueden generar valor respetando la biodiversidad y promoviendo condiciones equitativas.
             .tarjeta.tarjeta--fondo-img-01.h-100.p-4.px-5(data-aos="zoom-in-right")
               p.col-10.p-3.px-0.mb-0 En este capítulo se abordan sus fundamentos, principios y criterios, facilitando la construcción de propuestas comerciales responsables y alineadas con las exigencias del mercado actual.
 
@@ -29,22 +29,22 @@
             img.subtitulo-destacado__img(src="@/assets/curso/tema1/img_5.png", alt="Ícono de un globo de diálogo con puntos suspensivos rodeado de dos flechas verdes en círculo, que simboliza el intercambio cíclico de ideas.")
           .subtitulo-destacado__fondo
             h2.subtitulo-destacado__texto Concepto
-
+      
       .tarjeta--bg-img.color-acento-botones-5.rounded-4.p-0.mb-5.overflow-hidden(data-aos="zoom-in-right")
         .row.justify-content-center.align-items-center.mb-0.h-100
           .col-8.col-lg-5.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
             figure.p-0.m-0.h-100
-                img.p-0.w-100.h-100.object-fit-cover(src="@/assets/curso/tema1/img_7.png", class="img-fluid", alt="Collage de tres escenas: una persona recolecta fibras naturales al aire libre, un ícono de lupa con check y documento superpuesto sobre una vista aérea de vegetación representa la verificación y certificación, y frascos de vidrio con extractos vegetales en un laboratorio muestran la transformación de recursos de la biodiversidad en productos.")
-          .col-12.col-lg-7.p-5.ps-5.ps-lg-0
-            p.mb-0 El #[em biocomercio] se refiere a la producción, transformación y comercialización de bienes y servicios derivados de la #[em biodiversidad], bajo criterios de sostenibilidad ambiental, social y económica; este enfoque busca garantizar el uso responsable de los recursos naturales, promoviendo su conservación y generando beneficios para las comunidades involucradas. En el contexto empresarial, el #[em biocomercio] se convierte en una oportunidad para desarrollar productos diferenciados con valor sostenible.
+              img.p-0.w-100.h-100.object-fit-cover(src="@/assets/curso/tema1/img_7.png", class="img-fluid", alt="Collage de tres escenas: una persona recolecta fibras naturales al aire libre, un ícono de lupa con check y documento superpuesto sobre una vista aérea de vegetación representa la verificación y certificación, y frascos de vidrio con extractos vegetales en un laboratorio muestran la transformación de recursos de la biodiversidad en productos.")
+          .col-12.col-lg-7.p-5.ps-5.ps-lg-3
+            p.mb-0 El biocomercio se refiere a la producción, transformación y comercialización de bienes y servicios derivados de la biodiversidad, bajo criterios de sostenibilidad ambiental, social y económica; este enfoque busca garantizar el uso responsable de los recursos naturales, promoviendo su conservación y generando beneficios para las comunidades involucradas. En el contexto empresarial, el biocomercio se convierte en una oportunidad para desarrollar productos diferenciados con valor sostenible.
 
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-9.order-2.order-lg-1.mb-0
-          p.mb-4(data-aos="zoom-in-right") Por su parte, el #[em comercio justo] es un modelo que promueve relaciones comerciales equitativas, garantizando condiciones laborales dignas, precios justos y respeto por los derechos de los productores. Este enfoque busca reducir las desigualdades en la cadena de valor, fortaleciendo la transparencia y la responsabilidad social empresarial. Ambos conceptos están estrechamente relacionados, ya que integran sostenibilidad y equidad en los procesos comerciales.
+          p.mb-4(data-aos="zoom-in-right") Por su parte, el em comercio justo es un modelo que promueve relaciones comerciales equitativas, garantizando condiciones laborales dignas, precios justos y respeto por los derechos de los productores. Este enfoque busca reducir las desigualdades en la cadena de valor, fortaleciendo la transparencia y la responsabilidad social empresarial. Ambos conceptos están estrechamente relacionados, ya que integran sostenibilidad y equidad en los procesos comerciales.
           .tarjeta.color-secundario-5.h-100.p-4.px-5(data-aos="zoom-in-right")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-9.order-2.order-lg-1.mb-0
-                p.mb-0 En el contexto del #[em comercio justo], la certificación FLO (#[em Fairtrade Labelling Organizations]) representa uno de los principales mecanismos de validación, garantizando que los productos cumplen criterios relacionados con precios justos, condiciones laborales dignas y sostenibilidad. Por su parte, la responsabilidad social empresarial (RSE) complementa este enfoque al integrar prácticas éticas y sostenibles en la gestión empresarial, fortaleciendo la coherencia entre la propuesta comercial y las acciones de la organización.
+                p.mb-0 En el contexto del em comercio justo, la certificación FLO (#[em Fairtrade Labelling Organizations]) representa uno de los principales mecanismos de validación, garantizando que los productos cumplen criterios relacionados con precios justos, condiciones laborales dignas y sostenibilidad. Por su parte, la responsabilidad social empresarial (RSE) complementa este enfoque al integrar prácticas éticas y sostenibles en la gestión empresarial, fortaleciendo la coherencia entre la propuesta comercial y las acciones de la organización.
               .col-3.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
                 figure.d-none.d-lg-block
                   img(src="@/assets/curso/tema1/img_8.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, representando el precio justo para los productores.")
@@ -71,17 +71,17 @@
             figure
               img(src="@/assets/curso/tema1/img_13.png", class="img-fluid", alt="Hombre con gafas sonríe mientras usa una tableta, rodeado de ilustraciones de molinos de viento, paneles solares, hojas y un planeta con flechas de reciclaje, representando la energía renovable y la sostenibilidad.")
           .col-12.col-lg-9.mb-0
-            p.mb-4(data-aos="zoom-in-right") Los principios del #[em biocomercio] se orientan al uso sostenible de la #[em biodiversidad], la conservación de los ecosistemas y la distribución equitativa de beneficios; estos principios buscan asegurar que las actividades comerciales no generen impactos negativos en el entorno, promoviendo prácticas responsables en toda la cadena de valor. En el contexto empresarial, permiten estructurar modelos de negocio coherentes con la sostenibilidad.
+            p.mb-4(data-aos="zoom-in-right") Los principios del biocomercio se orientan al uso sostenible de la  biodiversidad, la conservación de los ecosistemas y la distribución equitativa de beneficios; estos principios buscan asegurar que las actividades comerciales no generen impactos negativos en el entorno, promoviendo prácticas responsables en toda la cadena de valor. En el contexto empresarial, permiten estructurar modelos de negocio coherentes con la sostenibilidad.
             .tarjeta.color-secundario-5.h-100.p-4.px-5(data-aos="zoom-in-right")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-lg-10.order-2.order-lg-1.mb-0
-                  p.mb-0 En el caso del #[em comercio justo], sus principios incluyen la transparencia, el respeto por los derechos laborales, la equidad en las relaciones comerciales y el desarrollo de capacidades en los productores. Estos elementos fortalecen la confianza entre los actores de la cadena y generan valor agregado en los productos, lo que influye en la percepción del consumidor.
+                  p.mb-0 En el caso del comercio justo, sus principios incluyen la transparencia, el respeto por los derechos laborales, la equidad en las relaciones comerciales y el desarrollo de capacidades en los productores. Estos elementos fortalecen la confianza entre los actores de la cadena y generan valor agregado en los productos, lo que influye en la percepción del consumidor.
                 .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                   figure.d-none.d-lg-block
                     img(src="@/assets/curso/tema1/img_8.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, representando el precio justo para los productores.")
 
         .cajon.color-acento-contenido-20.p-4(data-aos="zoom-in-right")
-          p.mb-0 Empresas que aplican estos principios logran diferenciarse en el mercado, ya que ofrecen productos alineados con valores sociales y ambientales. Esto no solo mejora su posicionamiento, sino que también facilita la construcción de relaciones comerciales sostenibles, basadas en la confianza y la responsabilidad. Los principios del #[em biocomercio] y #[em comercio justo], son:
+          p.mb-0 Empresas que aplican estos principios logran diferenciarse en el mercado, ya que ofrecen productos alineados con valores sociales y ambientales. Esto no solo mejora su posicionamiento, sino que también facilita la construcción de relaciones comerciales sostenibles, basadas en la confianza y la responsabilidad. Los principios del biocomercio y em comercio justo, son:
 
         .row.justify-content-center.mb-5.mt-4
           .col-12.col-sm-6.col-lg-6.col-xl-3.mb-4.mb-lg-3(data-aos="zoom-in-right")
@@ -113,7 +113,7 @@
         .col-12.col-lg-10.mb-0
           .tarjeta.tarjeta--fondo-img-03.h-100.py-4.px-5(data-aos="zoom-in-right")
             h5.mb-3 Pregunta de aplicación
-            p.mb-0 ¿Cómo influyen los principios del #[em biocomercio] en la construcción de una propuesta comercial sostenible?
+            p.mb-0 ¿Cómo influyen los principios del biocomercio en la construcción de una propuesta comercial sostenible?
 
       .subtitulo-destacado.mb-5(data-aos="flip-left")
         .subtitulo-destacado__icono
@@ -121,7 +121,7 @@
         .subtitulo-destacado__fondo
           h2.subtitulo-destacado__texto Criterios
 
-      p.mb-4(data-aos="zoom-in-right") Los criterios del #[em biocomercio] permiten evaluar si una actividad o producto cumple con los principios de sostenibilidad, considerando aspectos ambientales, sociales y económicos. Estos criterios orientan la toma de decisiones empresariales, asegurando que el uso de la #[em biodiversidad] se realice de manera responsable. En el contexto comercial, funcionan como una base para estructurar propuestas de valor coherentes con las exigencias del mercado sostenible.
+      p.mb-4(data-aos="zoom-in-right") Los criterios del biocomercio permiten evaluar si una actividad o producto cumple con los principios de sostenibilidad, considerando aspectos ambientales, sociales y económicos. Estos criterios orientan la toma de decisiones empresariales, asegurando que el uso de la biodiversidad se realice de manera responsable. En el contexto comercial, funcionan como una base para estructurar propuestas de valor coherentes con las exigencias del mercado sostenible.
 
       .bg_img_3
 
@@ -133,7 +133,7 @@
             .tarjeta.color-secundario-5.h-100.p-4.px-5.mb-4(data-aos="zoom-in-right")
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.col-lg-10.order-2.order-lg-1.mb-0
-                  p.mb-0 En el caso del #[em comercio justo], los criterios se centran en garantizar condiciones equitativas en la cadena de valor, incluyendo precios justos, respeto por los derechos laborales y transparencia en las relaciones comerciales. Estos elementos fortalecen la confianza del consumidor, quien percibe mayor valor en productos que cumplen con estándares éticos y sostenibles.
+                  p.mb-0 En el caso del comercio justo, los criterios se centran en garantizar condiciones equitativas en la cadena de valor, incluyendo precios justos, respeto por los derechos laborales y transparencia en las relaciones comerciales. Estos elementos fortalecen la confianza del consumidor, quien percibe mayor valor en productos que cumplen con estándares éticos y sostenibles.
                 .col-3.col-lg-2.order-1.order-lg-2.mb-4.mb-lg-0
                   figure.d-none.d-lg-block
                     img(src="@/assets/curso/tema1/img_8.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, representando el precio justo para los productores.")

@@ -331,7 +331,7 @@
       position: absolute
       right: 3rem
       top: 1.35rem
-      width: 24%
+      width: 20%
       aspect-ratio: 803 / 732
       background-image: url(../assets/curso/tema2/img_13.png)
       background-size: contain
@@ -348,8 +348,8 @@
         position: absolute
         right: 0.2rem
         top: 1.4rem
-        width: 46%
-        aspect-ratio: 803 / 732
+        width: 40%
+        aspect-ratio: 703 / 632
         background-image: url(../assets/curso/tema2/img_13.png)
         background-size: contain
         background-repeat: no-repeat
@@ -357,7 +357,12 @@
         z-index: 2
     @media (max-width: 770px)
       &::after
+        right: 0rem
         content: none
+      .tarjeta
+        position: relative
+        z-index: 1
+        margin-right: 0%
   &--fondo-img-07
     background-image: url(../assets/curso/tema2/img_16.png) !important
     border-radius: 20px
@@ -651,6 +656,14 @@
       background-color: color.adjust($color-acento-contenido, $lightness: 50%)
       color: textColor(color.adjust($color-acento-contenido, $lightness: 50%))
       border: solid 4px $color-acento-contenido
+  &.color-acento-contenido-10
+    background-color: $color-acento-contenido-10
+    *
+      color: textColor($color-acento-contenido-10)
+    &--borde
+      background-color: color.adjust($color-acento-contenido-10, $lightness: 50%)
+      color: textColor(color.adjust($color-acento-contenido-10, $lightness: 50%))
+      border: solid 4px $color-acento-contenido-10
   &.color-acento-botones
     background-color: $color-acento-botones
     *
@@ -706,15 +719,17 @@
   border: solid 2px
   border-radius: 20px
   position: relative
-  margin-left: 30px
+  margin-left: 0px
+  whidth: 100px
+  height: 300px
   &__numero
     border-radius: 60px
-    width: 60px
-    height: 60px
+    width: 50px
+    height: 50px
     display: inline-block
     position: absolute  
-    left: 0
-    top: 25px
+    left: 50%
+    top: 90%
     transform: translateX(-50%)
     div
       position: absolute
@@ -740,6 +755,12 @@
       background-color: $color-acento-contenido
       div
         color: textColor($color-acento-contenido)
+  &.color-acento-contenido-10
+    border-color: $color-acento-contenido-10
+    .tarjeta-numerada__numero
+      background-color: $color-acento-contenido-10
+      div
+        color: textColor($color-acento-contenido-10)
   &.color-acento-botones
     border-color: $color-acento-botones
     .tarjeta-numerada__numero

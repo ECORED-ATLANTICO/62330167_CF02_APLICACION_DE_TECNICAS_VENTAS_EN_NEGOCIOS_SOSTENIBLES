@@ -102,8 +102,8 @@
           h5 Figura 1.
           |    Características de certificaciones
         figure(data-aos="flip-left").mb-5
-          img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra algunas características de las certificaciones.").mb-3
-          img(src='@/assets/curso/tema3/img_8.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra algunas características de las certificaciones.").mb-3
+          img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-none d-lg-block", alt="Diagrama sobre las características de las certificaciones: verificabilidad, transparencia, estandarización y seguimiento. La verificabilidad permite comprobar el cumplimiento de estándares; la transparencia informa sobre criterios y resultados; la estandarización establece parámetros comunes para comparar productos; y el seguimiento contempla auditorías periódicas para garantizar el cumplimiento continuo.").mb-3
+          img(src='@/assets/curso/tema3/img_8.svg', class="img-fluid d-block d-lg-none", alt="Diagrama sobre las características de las certificaciones: verificabilidad, transparencia, estandarización y seguimiento. La verificabilidad permite comprobar el cumplimiento de estándares; la transparencia informa sobre criterios y resultados; la estandarización establece parámetros comunes para comparar productos; y el seguimiento contempla auditorías periódicas para garantizar el cumplimiento continuo.").mb-3
           figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5

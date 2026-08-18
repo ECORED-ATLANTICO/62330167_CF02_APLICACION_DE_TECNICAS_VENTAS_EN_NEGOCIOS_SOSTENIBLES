@@ -104,8 +104,8 @@
               td.text-start Organizan información relevante de clientes, productos y mercado, facilitando análisis, segmentación y toma de decisiones comerciales fundamentadas estratégicamente.
               td.text-start Microsoft Access, MySQL y hojas de cálculo empresariales utilizadas para almacenar información comercial y segmentar consumidores sostenibles.
 
-      .tarjeta.tarjeta--fondo-img-06.p-5.mb-5(data-aos="zoom-in-right")
-        .tarjeta.tarjeta--blanca.p-5
+      .tarjeta.tarjeta--fondo-img-06.p-3.p-lg-5.mb-5(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--blanca.p-3.p-lg-4
           p.col-12.col-lg-8.col-xl-10.mb-0
             strong Ejemplo aplicado.
             |  Salesforce ofrece herramientas CRM que permiten gestionar información de clientes y seguimiento comercial. Empresas que utilizan estas plataformas optimizan sus procesos, mejoran la relación con clientes y fortalecen la toma de decisiones basada en datos en entornos comerciales dinámicos.
@@ -167,7 +167,7 @@
       p.mb-0 En el proceso de comunicación comercial, es fundamental anticipar y gestionar objeciones del cliente, ya que estas representan dudas o barreras frente a la decisión de compra. La capacidad de responder con argumentos claros, evidencia verificable y coherencia en la propuesta fortalece la credibilidad de la empresa y aumenta la probabilidad de cierre. En negocios sostenibles, las objeciones suelen relacionarse con precio, certificaciones o impacto real, por lo que su adecuada gestión es clave en el proceso comercial.
 
     .row.justify-content-center.cursor-pointer.mb-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-lg-6.col-md-9.col-12.mb-4.mb-xl-0
         .crd_hover_txt(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
@@ -176,7 +176,7 @@
           .crd_hover_txt--body
             h4.mb-3 Diagnóstico
             p.mb-0 Identifica problemas, debilidades y oportunidades de mejora en procesos comerciales, facilitando análisis estratégico para optimizar resultados empresariales sostenibles.
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-lg-6.col-md-9.col-12.mb-4.mb-xl-0
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -184,7 +184,7 @@
           .crd_hover_txt--body
             h4.mb-3 Acciones
             p.mb-0 Define estrategias y actividades orientadas a fortalecer el desempeño comercial, corrigiendo dificultades y mejorando resultados organizacionales progresivamente sostenibles.
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-lg-6.col-md-9.col-12.mb-4.mb-xl-0
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -193,12 +193,12 @@
             h4.mb-3 Seguimiento
             p.mb-0 Evalúa resultados obtenidos tras implementar acciones de mejora, verificando cumplimiento de objetivos y efectividad de estrategias comerciales aplicadas.
 
-    p.mb-5(data-aos="zoom-in-right") Escuche el siguiente #[em podcast], en el que se abordan los principales aspectos relacionados con el plan de mejora. Esta información servirá como base para el desarrollo de las actividades posteriores.
+    p.mb-5(data-aos="zoom-in-right") Escuche el siguiente pódcast, en el que se abordan los principales aspectos relacionados con el plan de mejora. Esta información servirá como base para el desarrollo de las actividades posteriores.
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-10.mb-0
         .tarjeta.tarjeta--fondo-img-08.p-4.px-5.mb-3(data-aos="zoom-in-right")
-          p.col-12.col-lg-8.mb-3 A continuación, se invita a ir al siguiente #[em podcast]:
+          p.col-12.col-lg-8.mb-3 A continuación, se invita a ir al siguiente pódcast:
           TarjetaAudio.color-acento-contenido.p-3.px-4.col-12.col-lg-8(
             texto="Optimización estratégica informacional. "
             :audio="require_src('@/assets/curso/podcast/podcast_2.mp3')"

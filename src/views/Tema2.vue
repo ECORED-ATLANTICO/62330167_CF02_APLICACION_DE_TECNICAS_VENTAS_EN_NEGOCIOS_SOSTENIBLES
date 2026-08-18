@@ -45,19 +45,19 @@
 
     .row.justify-content-center.mb-4
       .col-12.col-lg-10
-        .tarjeta.tarjeta--fondo-img2-02.p-4(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img2-02.p-3.p-lg-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-3.col-lg-2.mb-4.mb-lg-0
-              img(src="@/assets/curso/tema2/img_7.svg", alt="Ícono de una claqueta de cine con una hoja verde, que representa un recurso audiovisual educativo.")
+              img(src="@/assets/curso/common/img_7.png", alt="Ícono de una claqueta de cine con una hoja verde, que representa un recurso audiovisual educativo.")
             .col-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-3 ¿Qué es el GREENWASHING?
-                  p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica el concepto de greenwashing, mostrando prácticas engañosas utilizadas por empresas para aparentar sostenibilidad sin respaldo verificable ni real.
+                  h4.mb-3 ¿Qué es el <em>GREENWASHING</em>?
+                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica el concepto de <em>greenwashing</em>, mostrando prácticas engañosas utilizadas por empresas para aparentar sostenibilidad sin respaldo verificable ni real.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=D6YD3RUJ0Gg" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-download
+                    i.fa-brands.fa-youtube
 
     .bg_img_5
 
@@ -89,10 +89,10 @@
             img(src="@/assets/curso/tema2/img_11.png", class="img-fluid", alt="Ilustración de una persona disfrazada de superhéroe 'Green Wash' con capa y antifaz verdes, junto a una camiseta de H&M colgada de un árbol y una bolsa de papel con el sello ECO, rodeada de hojas y un planeta Tierra con flechas de reciclaje.")
 
     .tarjeta.tarjeta--fondo-img-06.p-5.mb-5(data-aos="zoom-in-right")
-      .tarjeta.tarjeta--blanca.p-5
+      .tarjeta.tarjeta--blanca.p-3.p-lg-4
         p.col-12.col-lg-8.col-xl-10.mb-0
           strong Ejemplo aplicado.
-          |  H&M fue cuestionada por usar términos como "conscious collection" sin evidencia suficiente sobre impacto real. La ambigüedad y falta de información clara reflejan características de greenwashing. Esto generó dudas en consumidores, evidenciando la importancia de comunicar con transparencia y respaldo verificable en estrategias comerciales sostenibles.
+          |  H&M fue cuestionada por usar términos como "<em>conscious collection</em>" sin evidencia suficiente sobre impacto real. La ambigüedad y falta de información clara reflejan características de <em>greenwashing</em>. Esto generó dudas en consumidores, evidenciando la importancia de comunicar con transparencia y respaldo verificable en estrategias comerciales sostenibles.
 
     .bg_img_6
 
@@ -101,7 +101,7 @@
           .col-8.col-lg-5.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
             figure.p-0.m-0.h-100
                 img.p-0.w-100.h-100.object-fit-cover(src="@/assets/curso/tema2/img_15.png", class="img-fluid", alt="Grupo de manifestantes disfrazadas con delantales, pañoletas y guantes de goma, sosteniendo aerosoles de limpieza con la etiqueta 'GREEN WASH' y billetes de veinte libras esterlinas, en una protesta satírica contra el lavado de imagen ambiental de las empresas.")
-          .col-12.col-lg-7.p-5.ps-5.ps-lg-0
+          .col-12.col-lg-7.p-5.ps-5.ps-lg-3
             p.mb-0 Identificar estas características permite a las empresas y consumidores tomar decisiones más informadas. En el ámbito comercial. A continuación, se explorará.
 
       .subtitulo-destacado.mb-4(data-aos="flip-left")
@@ -110,7 +110,7 @@
         .subtitulo-destacado__fondo
           h2.subtitulo-destacado__texto Características del #[em greenwashing]
 
-      .tarjeta.tarjeta--fondo-img-07.p-5.mb-5(data-aos="zoom-in-right")
+      .tarjeta.tarjeta--fondo-img-07.p-3.p-lg-5.mb-5(data-aos="zoom-in-right")
         SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-5.mb-0
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0

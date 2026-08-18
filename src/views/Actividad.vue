@@ -156,7 +156,8 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué riesgo genera el greenwashing para las organizaciones?',
+          texto:
+            '¿Qué riesgo genera el <em>greenwashing</em> para las organizaciones?',
           imagen: imagen2,
           barajarRespuestas: true,
           opciones: [
@@ -186,7 +187,8 @@ export default {
         },
         {
           id: 6,
-          texto: '¿Qué característica identifica una práctica de greenwashing?',
+          texto:
+            '¿Qué característica identifica una práctica de <em>greenwashing</em>?',
           imagen: imagen2,
           barajarRespuestas: true,
           opciones: [

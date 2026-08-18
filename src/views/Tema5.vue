@@ -46,19 +46,19 @@
 
     .row.justify-content-center.mb-4
       .col-12.col-lg-10
-        .tarjeta.tarjeta--fondo-img2-02.p-4(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img2-02.p-3.p-lg-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-3.col-lg-2
-              img(src="@/assets/curso/tema2/img_7.svg", alt="Ícono de una claqueta de cine con una hoja verde, que representa un recurso audiovisual educativo.")
+            .col-3.col-sm-3.col-lg-2.mb-3
+              img(src="@/assets/curso/common/img_7.png", alt="Ícono de una claqueta de cine con una hoja verde, que representa un recurso audiovisual educativo.")
             .col-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.mb-4.mb-lg-0
                   h4.mb-3 Propuesta comercial de un producto o servicio
-                  p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica la importancia de la propuesta comercial, destacando estructura, beneficios, negociación y alineación entre necesidades del cliente y oferta empresarial.
+                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica la importancia de la propuesta comercial, destacando estructura, beneficios, negociación y alineación entre necesidades del cliente y oferta empresarial.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=A4eXCVzzHkE" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-download
+                    i.fa-brands.fa-youtube
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-0
@@ -83,7 +83,7 @@
           p.mb-0 Según Anderson, Narus y van Rossum (2020), cada componente debe aportar a la narrativa de valor, anticipar preguntas frecuentes y reforzar los motivos por los cuales esa oferta es la más adecuada frente a otras opciones del mercado. Además, en el entorno digital, se sugiere incorporar recursos multimedia como infografías, videos breves o testimonios que refuercen la credibilidad. La organización de estos elementos debe responder al perfil del cliente: una propuesta para un emprendedor puede ser más visual y directa, mientras que una dirigida a una corporación requiere mayor profundidad técnica y referencias legales.
 
       .tarjeta.tarjeta--fondo-img-06.p-5.mb-5(data-aos="zoom-in-right")
-        .tarjeta.tarjeta--blanca.p-5
+        .tarjeta.tarjeta--blanca.p-3.p-lg-4
           p.col-12.col-lg-8.col-xl-10.mb-0
             strong Ejemplo aplicado.
             |  La empresa Sempli, dedicada al financiamiento de negocios, estructura sus propuestas comerciales para emprendedores en formato web interactivo. Incluye descripción del crédito, beneficios comparativos, simulador de cuotas, condiciones de desembolso y testimonios. Esto facilita que el cliente recorra la propuesta como si fuera una experiencia digital, aumentando su comprensión y disposición a concretar.
