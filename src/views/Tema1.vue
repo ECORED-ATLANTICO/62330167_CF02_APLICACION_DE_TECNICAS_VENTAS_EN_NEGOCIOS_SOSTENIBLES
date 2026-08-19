@@ -81,7 +81,7 @@
                     img(src="@/assets/curso/tema1/img_8.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, representando el precio justo para los productores.")
 
         .cajon.color-acento-contenido-20.p-4(data-aos="zoom-in-right")
-          p.mb-0 Empresas que aplican estos principios logran diferenciarse en el mercado, ya que ofrecen productos alineados con valores sociales y ambientales. Esto no solo mejora su posicionamiento, sino que también facilita la construcción de relaciones comerciales sostenibles, basadas en la confianza y la responsabilidad. Los principios del biocomercio y em comercio justo, son:
+          p.mb-0 Empresas que aplican estos principios logran diferenciarse en el mercado, ya que ofrecen productos alineados con valores sociales y ambientales. Esto no solo mejora su posicionamiento, sino que también facilita la construcción de relaciones comerciales sostenibles, basadas en la confianza y la responsabilidad. Los principios del biocomercio y comercio justo, son:
 
         .row.justify-content-center.mb-5.mt-4
           .col-12.col-sm-6.col-lg-6.col-xl-3.mb-4.mb-lg-3(data-aos="zoom-in-right")

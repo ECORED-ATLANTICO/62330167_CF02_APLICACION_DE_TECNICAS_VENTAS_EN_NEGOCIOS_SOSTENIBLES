@@ -50,9 +50,14 @@
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
       .col-12.col-lg-10.mb-0
-          figure(data-aos="flip-left").mb-5
-            img(src='@/assets/curso/tema7/img_5.svg', class="img-fluid d-none d-lg-block", alt="Diagrama de tres pasos conectados por flechas: Información, datos organizados que permiten tomar decisiones comerciales, con datos precisos y relevantes, fuentes confiables y actualizadas, organización estructurada y acceso seguro y oportuno; Análisis, interpretación de datos para identificar patrones y oportunidades, con identificación de patrones y tendencias, detección de oportunidades, evaluación de riesgos y visualización clara de resultados; Toma de decisiones, uso de información para definir acciones comerciales, con definición de estrategias, asignación de recursos, implementación de acciones y seguimiento y evaluación. Una nota inferior conecta los tres pasos indicando que información confiable, análisis inteligente y decisiones efectivas impulsan empresas sostenibles y competitivas.").mb-3
-            img(src='@/assets/curso/tema7/img_6.svg', class="img-fluid d-block d-lg-none", alt="Diagrama de tres pasos conectados por flechas: Información, datos organizados que permiten tomar decisiones comerciales, con datos precisos y relevantes, fuentes confiables y actualizadas, organización estructurada y acceso seguro y oportuno; Análisis, interpretación de datos para identificar patrones y oportunidades, con identificación de patrones y tendencias, detección de oportunidades, evaluación de riesgos y visualización clara de resultados; Toma de decisiones, uso de información para definir acciones comerciales, con definición de estrategias, asignación de recursos, implementación de acciones y seguimiento y evaluación. Una nota inferior conecta los tres pasos indicando que información confiable, análisis inteligente y decisiones efectivas impulsan empresas sostenibles y competitivas.").mb-3
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 5.
+          | Conceptos clave del control de la información
+        figure(data-aos="flip-left").mb-3
+          img(src='@/assets/curso/tema7/img_5.svg', class="img-fluid d-none d-lg-block", alt="Conceptos clave del control de la información”. Presenta tres etapas conectadas mediante flechas: Información, que comprende datos precisos y relevantes, fuentes confiables y actualizadas, organización estructurada y acceso seguro y oportuno; Análisis, que implica identificar patrones y tendencias, detectar oportunidades, evaluar riesgos y visualizar resultados; y Toma de decisiones, que contempla la definición de estrategias, asignación de recursos, implementación de acciones, seguimiento y evaluación. En la parte inferior se destaca que la información confiable, el análisis inteligente y las decisiones efectivas impulsan empresas sostenibles y competitivas. ").mb-2
+          img(src='@/assets/curso/tema7/img_6.svg', class="img-fluid d-block d-lg-none", alt="Conceptos clave del control de la información”. Presenta tres etapas conectadas mediante flechas: Información, que comprende datos precisos y relevantes, fuentes confiables y actualizadas, organización estructurada y acceso seguro y oportuno; Análisis, que implica identificar patrones y tendencias, detectar oportunidades, evaluar riesgos y visualizar resultados; y Toma de decisiones, que contempla la definición de estrategias, asignación de recursos, implementación de acciones, seguimiento y evaluación. En la parte inferior se destaca que la información confiable, el análisis inteligente y las decisiones efectivas impulsan empresas sostenibles y competitivas. ").mb-2
+          figcaption Nota. SENA, (2026).
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-0
@@ -132,9 +137,13 @@
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
       .col-12.col-lg-10.mb-0
-        figure(data-aos="flip-left").mb-5
-          img(src='@/assets/curso/tema7/img_10.svg', class="img-fluid d-none d-lg-block", alt="Lista de siete indicadores comerciales numerados: 01. Ventas, mide cantidad de productos vendidos durante un periodo comercial determinado; 02. Satisfacción, evalúa percepción y experiencia del cliente frente al producto adquirido; 03. Conversión, mide clientes potenciales que finalmente realizan una compra efectiva comercialmente; 04. Fidelización, evalúa permanencia y recompra frecuente de clientes dentro del negocio; 05. Alcance digital, mide cantidad de personas impactadas mediante contenidos y campañas digitales; 06. Rentabilidad, evalúa beneficios económicos obtenidos frente a costos operativos y comerciales; 07. Tiempo de respuesta, mide rapidez de atención brindada al cliente en diferentes canales.")
-          img(src='@/assets/curso/tema7/img_11.svg', class="img-fluid d-block d-lg-none", alt="Lista de siete indicadores comerciales numerados: 01. Ventas, mide cantidad de productos vendidos durante un periodo comercial determinado; 02. Satisfacción, evalúa percepción y experiencia del cliente frente al producto adquirido; 03. Conversión, mide clientes potenciales que finalmente realizan una compra efectiva comercialmente; 04. Fidelización, evalúa permanencia y recompra frecuente de clientes dentro del negocio; 05. Alcance digital, mide cantidad de personas impactadas mediante contenidos y campañas digitales; 06. Rentabilidad, evalúa beneficios económicos obtenidos frente a costos operativos y comerciales; 07. Tiempo de respuesta, mide rapidez de atención brindada al cliente en diferentes canales.")
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 6.
+          | Tipos de indicadores
+        figure(data-aos="flip-left").mb-3
+          img(src='@/assets/curso/tema7/img_10.svg', class="img-fluid d-none d-lg-block", alt="Tipos de indicadores. Presenta siete tipos de indicadores con su definición: Ventas: mide la cantidad de productos vendidos durante un período comercial determinado. Satisfacción: evalúa la percepción y experiencia del cliente frente al producto adquirido. Conversión: mide la cantidad de clientes potenciales que finalmente realizan una compra efectiva. Fidelización: evalúa la permanencia y recompra frecuente de clientes dentro del negocio. Alcance digital: mide la cantidad de personas impactadas mediante contenidos y campañas digitales. Rentabilidad: evalúa los beneficios económicos obtenidos frente a los costos operativos y comerciales. Tiempo de respuesta: mide la rapidez de la atención brindada al cliente en diferentes canales.").mb-2
+          img(src='@/assets/curso/tema7/img_11.svg', class="img-fluid d-block d-lg-none", alt="Tipos de indicadores. Presenta siete tipos de indicadores con su definición: Ventas: mide la cantidad de productos vendidos durante un período comercial determinado. Satisfacción: evalúa la percepción y experiencia del cliente frente al producto adquirido. Conversión: mide la cantidad de clientes potenciales que finalmente realizan una compra efectiva. Fidelización: evalúa la permanencia y recompra frecuente de clientes dentro del negocio. Alcance digital: mide la cantidad de personas impactadas mediante contenidos y campañas digitales. Rentabilidad: evalúa los beneficios económicos obtenidos frente a los costos operativos y comerciales. Tiempo de respuesta: mide la rapidez de la atención brindada al cliente en diferentes canales.").mb-2
+          figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-0
@@ -193,7 +202,7 @@
             h4.mb-3 Seguimiento
             p.mb-0 Evalúa resultados obtenidos tras implementar acciones de mejora, verificando cumplimiento de objetivos y efectividad de estrategias comerciales aplicadas.
 
-    p.mb-5(data-aos="zoom-in-right") Escuche el siguiente pódcast, en el que se abordan los principales aspectos relacionados con el plan de mejora. Esta información servirá como base para el desarrollo de las actividades posteriores.
+    p.mb-5(data-aos="zoom-in-right") A continuación, se invita al siguiente pódcast, en el que se abordan los principales aspectos relacionados con el plan de mejora. Esta información servirá como base para el desarrollo de las actividades posteriores.
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-10.mb-0

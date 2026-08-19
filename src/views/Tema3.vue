@@ -100,10 +100,10 @@
       .col-12.col-lg-10.mb-0  
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1.
-          |    Características de certificaciones
-        figure(data-aos="flip-left").mb-5
-          img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-none d-lg-block", alt="Diagrama sobre las características de las certificaciones: verificabilidad, transparencia, estandarización y seguimiento. La verificabilidad permite comprobar el cumplimiento de estándares; la transparencia informa sobre criterios y resultados; la estandarización establece parámetros comunes para comparar productos; y el seguimiento contempla auditorías periódicas para garantizar el cumplimiento continuo.").mb-3
-          img(src='@/assets/curso/tema3/img_8.svg', class="img-fluid d-block d-lg-none", alt="Diagrama sobre las características de las certificaciones: verificabilidad, transparencia, estandarización y seguimiento. La verificabilidad permite comprobar el cumplimiento de estándares; la transparencia informa sobre criterios y resultados; la estandarización establece parámetros comunes para comparar productos; y el seguimiento contempla auditorías periódicas para garantizar el cumplimiento continuo.").mb-3
+          | Características de certificaciones
+        figure(data-aos="flip-left").mb-3
+          img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-none d-lg-block", alt="Diagrama sobre las características de las certificaciones: verificabilidad, transparencia, estandarización y seguimiento. La verificabilidad permite comprobar el cumplimiento de estándares; la transparencia informa sobre criterios y resultados; la estandarización establece parámetros comunes para comparar productos; y el seguimiento contempla auditorías periódicas para garantizar el cumplimiento continuo.").mb-2
+          img(src='@/assets/curso/tema3/img_8.svg', class="img-fluid d-block d-lg-none", alt="Diagrama sobre las características de las certificaciones: verificabilidad, transparencia, estandarización y seguimiento. La verificabilidad permite comprobar el cumplimiento de estándares; la transparencia informa sobre criterios y resultados; la estandarización establece parámetros comunes para comparar productos; y el seguimiento contempla auditorías periódicas para garantizar el cumplimiento continuo.").mb-2
           figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5

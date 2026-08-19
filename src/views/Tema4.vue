@@ -90,10 +90,10 @@
       .col-12.col-lg-10.mb-0
         .titulo-sexto.color-acento-contenido.mb-0
           h5 Figura 2.
-          |    Tipos de comunicación comercial
-        figure(data-aos="flip-left").mb-5
-          img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-none d-lg-block", alt="Diagrama sobre tres tipos de comunicación comercial: informativa, que comunica características y beneficios del producto; persuasiva, que influye en la decisión de compra; y emocional, que genera conexión con el cliente mediante valores y experiencias.").mb-3
-          img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-block d-lg-none", alt="Diagrama sobre tres tipos de comunicación comercial: informativa, que comunica características y beneficios del producto; persuasiva, que influye en la decisión de compra; y emocional, que genera conexión con el cliente mediante valores y experiencias.").mb-3
+          | Tipos de comunicación comercial
+        figure(data-aos="flip-left").mb-3
+          img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-none d-lg-block", alt="Diagrama sobre tres tipos de comunicación comercial: informativa, que comunica características y beneficios del producto; persuasiva, que influye en la decisión de compra; y emocional, que genera conexión con el cliente mediante valores y experiencias.").mb-2
+          img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-block d-lg-none", alt="Diagrama sobre tres tipos de comunicación comercial: informativa, que comunica características y beneficios del producto; persuasiva, que influye en la decisión de compra; y emocional, que genera conexión con el cliente mediante valores y experiencias.").mb-2
           figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
@@ -191,59 +191,16 @@
     .cajon.color-primario-20.p-4.mb-5
       p.mb-0 En el ámbito comercial, comprender estos elementos facilita la construcción de mensajes más efectivos. Esto permite conectar con el cliente, responder a sus necesidades y fortalecer la propuesta de valor, influyendo directamente en la decisión de compra.
     
-    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
-      .col-12.col-lg-10.mb-0
-        .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-          .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-primario.p-3
-              .tarjeta-numerada__numero
-                .h3 01
-              .tarjeta.color-primario.text-center.p-2(data-aos="fade").mb-3
-                p.mb-0
-                  b Emisor
-              p.text-center Empresa o persona que transmite el mensaje al cliente.
-
-          .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-acento-contenido-10.p-3
-              .tarjeta-numerada__numero
-                .h3 02
-              .tarjeta.color-acento-contenido-10.text-center.p-2(data-aos="fade").mb-3
-                p.mb-0
-                  b Mensaje
-              p.text-center Información que se desea transmitir sobre el producto o servicio.
-
-          .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-acento-botones.p-3
-              .tarjeta-numerada__numero
-                .h3 03
-              .tarjeta.color-acento-botones.text-center.p-2(data-aos="fade").mb-3
-                p.mb-0
-                  b Canal
-              p.text-center Medio utilizado para transmitir el mensaje.
-
-          .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-acento-contenido-10.p-3
-              .tarjeta-numerada__numero
-                .h3 04
-              .tarjeta.color-acento-contenido-10.text-center.p-2(data-aos="fade").mb-3
-                p.mb-0
-                  b Receptor
-              p.text-center Cliente o público objetivo que recibe el mensaje. 
-          
-          .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-primario.p-3
-              .tarjeta-numerada__numero
-                .h3 05
-              .tarjeta.color-primario.text-center.p-2(data-aos="fade").mb-3
-                .p.mb-0
-                  b Retroalimentación
-              p.text-center Respuesta del cliente frente al mensaje recibido.
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
       .col-12.col-lg-10.mb-0
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 3.
+          | Elementos de comunicación comercial
         figure(data-aos="flip-left").mb-5
-          img(src='@/assets/curso/tema4/img_15.svg', class="img-fluid d-none d-lg-block", alt="Diagrama cíclico con cinco elementos numerados de la comunicación comercial: 01. Emisor, empresa o persona que transmite el mensaje al cliente; 02. Mensaje, información que se desea transmitir sobre el producto o servicio; 03. Canal, medio utilizado para transmitir el mensaje; 04. Receptor, cliente o público objetivo que recibe el mensaje; 05. Retroalimentación, respuesta del cliente frente al mensaje recibido, la cual permite mejorar el mensaje, los canales y la relación con los clientes.").mb-3
-          img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none", alt="Diagrama cíclico con cinco elementos numerados de la comunicación comercial: 01. Emisor, empresa o persona que transmite el mensaje al cliente; 02. Mensaje, información que se desea transmitir sobre el producto o servicio; 03. Canal, medio utilizado para transmitir el mensaje; 04. Receptor, cliente o público objetivo que recibe el mensaje; 05. Retroalimentación, respuesta del cliente frente al mensaje recibido, la cual permite mejorar el mensaje, los canales y la relación con los clientes.").mb-3
+          img(src='@/assets/curso/tema4/img_15.svg', class="img-fluid d-none d-lg-block", alt=" Elementos de la comunicación comercial”, que presenta mediante cinco etapas el proceso de comunicación entre una empresa y sus clientes. De izquierda a derecha se muestran: 1) Emisor: empresa o persona que transmite el mensaje; 2) Mensaje: información sobre el producto o servicio; 3) Canal: medio utilizado para transmitir el mensaje; 4) Receptor: cliente o público objetivo que recibe el mensaje; y 5) Retroalimentación: respuesta del cliente frente al mensaje recibido. En la parte inferior se indica que la retroalimentación permite mejorar el mensaje, los canales y la relación con los clientes. La infografía utiliza imágenes de personas, productos sostenibles y dispositivos digitales, con colores azul y verde. ").mb-3
+          img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none", alt=" Elementos de la comunicación comercial”, que presenta mediante cinco etapas el proceso de comunicación entre una empresa y sus clientes. De izquierda a derecha se muestran: 1) Emisor: empresa o persona que transmite el mensaje; 2) Mensaje: información sobre el producto o servicio; 3) Canal: medio utilizado para transmitir el mensaje; 4) Receptor: cliente o público objetivo que recibe el mensaje; y 5) Retroalimentación: respuesta del cliente frente al mensaje recibido. En la parte inferior se indica que la retroalimentación permite mejorar el mensaje, los canales y la relación con los clientes. La infografía utiliza imágenes de personas, productos sostenibles y dispositivos digitales, con colores azul y verde. ").mb-3
+          figcaption Nota. SENA, (2026).
 
     p.mb-5(data-aos="zoom-in-right") A continuación, se dispone de un pódcast que aborda los principales elementos de la comunicación comercial. Se recomienda escuchar atentamente el contenido para facilitar la comprensión de los conceptos y fortalecer el aprendizaje antes de continuar con el desarrollo del curso.
 

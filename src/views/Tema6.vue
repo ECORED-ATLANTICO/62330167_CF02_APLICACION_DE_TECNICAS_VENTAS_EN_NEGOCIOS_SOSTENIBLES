@@ -95,9 +95,13 @@
 
       .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
         .col-12.col-lg-10.mb-0
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 4.
+            | Oportunidades de mejora
           figure(data-aos="flip-left").mb-5
-            img(src='@/assets/curso/tema6/img_8.svg', class="img-fluid d-none d-lg-block", alt="Diagrama con cinco elementos numerados sobre la importancia de la satisfacción del cliente: 01. Fidelización, permite mantener clientes y generar relaciones comerciales a largo plazo; 02. Reputación, influye en la percepción de la marca en el mercado; 03. Crecimiento, genera nuevas oportunidades a través de recomendaciones; 04. Mejora continua, permite identificar fallas y ajustar procesos comerciales; 05. Resultados, fortalece la relación con el cliente y aumenta la rentabilidad.").mb-3
-            img(src='@/assets/curso/tema6/img_9.svg', class="img-fluid d-block d-lg-none", alt="Diagrama con cinco elementos numerados sobre la importancia de la satisfacción del cliente: 01. Fidelización, permite mantener clientes y generar relaciones comerciales a largo plazo; 02. Reputación, influye en la percepción de la marca en el mercado; 03. Crecimiento, genera nuevas oportunidades a través de recomendaciones; 04. Mejora continua, permite identificar fallas y ajustar procesos comerciales; 05. Resultados, fortalece la relación con el cliente y aumenta la rentabilidad.").mb-3
+            img(src='@/assets/curso/tema6/img_8.svg', class="img-fluid d-none d-lg-block", alt="“Oportunidades de mejora”, compuesta por cuatro flechas horizontales escalonadas que representan cuatro oportunidades: Fidelización, que permite mantener clientes y generar relaciones comerciales a largo plazo; Reputación, que influye en la percepción de la marca en el mercado; Crecimiento, que genera nuevas oportunidades a través de recomendaciones; y Mejora continua, que permite identificar fallas y ajustar procesos comerciales.").mb-2
+            img(src='@/assets/curso/tema6/img_9.svg', class="img-fluid d-block d-lg-none", alt="“Oportunidades de mejora”, compuesta por cuatro flechas horizontales escalonadas que representan cuatro oportunidades: Fidelización, que permite mantener clientes y generar relaciones comerciales a largo plazo; Reputación, que influye en la percepción de la marca en el mercado; Crecimiento, que genera nuevas oportunidades a través de recomendaciones; y Mejora continua, que permite identificar fallas y ajustar procesos comerciales.").mb-2
+            figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.mb-0
       .col-12.col-lg-10.mb-0
