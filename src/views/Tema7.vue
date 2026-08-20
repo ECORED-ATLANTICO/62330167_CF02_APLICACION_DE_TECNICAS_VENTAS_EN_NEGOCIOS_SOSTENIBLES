@@ -207,7 +207,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-12.col-lg-10.mb-0
         .tarjeta.tarjeta--fondo-img-08.p-4.px-5.mb-3(data-aos="zoom-in-right")
-          p.col-12.col-lg-8.mb-3 A continuación, se invita a ir al siguiente pódcast:
+          p.col-12.col-lg-8.mb-3 
           TarjetaAudio.color-acento-contenido.p-3.px-4.col-12.col-lg-8(
             texto="Optimización estratégica informacional. "
             :audio="require_src('@/assets/curso/podcast/podcast_2.mp3')"

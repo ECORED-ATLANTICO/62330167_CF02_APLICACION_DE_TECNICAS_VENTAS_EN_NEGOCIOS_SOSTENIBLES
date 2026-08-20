@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Biocomercio, comercio justo y certificación FLO - RSE
+        h1 1.	Biocomercio (<em>biotrade</em>), Comercio justo - Certificación FLO – RSE
 
       .bg_img_1
 
