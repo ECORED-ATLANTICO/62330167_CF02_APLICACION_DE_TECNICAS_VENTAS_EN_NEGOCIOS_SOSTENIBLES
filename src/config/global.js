@@ -33,7 +33,7 @@ export default {
         nombreRuta: 'tema1',
         numero: '1',
         titulo:
-          '1.	Biocomercio (<em>biotrade</em>), Comercio justo - Certificación FLO – RSE',
+          'Biocomercio (<em>biotrade</em>), Comercio justo - Certificación FLO – RSE',
         desarrolloContenidos: true,
       },
       {
