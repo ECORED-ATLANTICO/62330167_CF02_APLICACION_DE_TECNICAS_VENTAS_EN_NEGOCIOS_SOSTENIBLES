@@ -24,7 +24,7 @@
         .subtitulo-destacado__icono
           img.subtitulo-destacado__img(src="@/assets/curso/tema1/img_5.png", alt="Ícono de un globo de diálogo con puntos suspensivos rodeado de dos flechas verdes en círculo, que simboliza el intercambio cíclico de ideas.")
         .subtitulo-destacado__fondo
-          h2.subtitulo-destacado__texto Tipos
+          h2.subtitulo-destacado__texto Concepto
 
       .row.justify-content-center.align-items-center.mb-4
         .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in-right")

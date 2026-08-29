@@ -194,11 +194,6 @@ export default {
     },
     {
       referencia:
-        'Naciones Unidas. (s. f.). <em>Objetivos de Desarrollo Sostenible</em>.',
-      link: 'https://sdgs.un.org/es/goals ',
-    },
-    {
-      referencia:
         'Niño Sierra, D. F. (s. f.). <em>Fidelización del cliente</em>. Fundación Universitaria UNIEMPRESARIAL. CCB.',
       link: 'https://bibliotecadigital.ccb.org.co/bitstreams/a4b5d64d-a649-4170-8d61-6b8b400e6dbd/download',
     },
@@ -275,12 +270,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -290,7 +285,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

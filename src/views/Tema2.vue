@@ -52,7 +52,7 @@
             .col-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-3 ¿Qué es el <em>GREENWASHING</em>?
+                  h4.mb-3 ¿Qué es el <em>greenwashing</em>?
                   p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica el concepto de <em>greenwashing</em>, mostrando prácticas engañosas utilizadas por empresas para aparentar sostenibilidad sin respaldo verificable ni real.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=D6YD3RUJ0Gg" target="_blank")
@@ -102,7 +102,8 @@
             figure.p-0.m-0.h-100
                 img.p-0.w-100.h-100.object-fit-cover(src="@/assets/curso/tema2/img_15.png", class="img-fluid", alt="Grupo de manifestantes disfrazadas con delantales, pañoletas y guantes de goma, sosteniendo aerosoles de limpieza con la etiqueta 'GREEN WASH' y billetes de veinte libras esterlinas, en una protesta satírica contra el lavado de imagen ambiental de las empresas.")
           .col-12.col-lg-7.p-5.ps-5.ps-lg-3
-            p.mb-0 Identificar estas características permite a las empresas y consumidores tomar decisiones más informadas. En el ámbito comercial. A continuación, se explorará.
+            p.mb-0 Identificar estas características permite a las empresas y consumidores tomar decisiones más informadas. En el ámbito comercial, reconocer el <em>greenwashing</em> ayuda a construir propuestas de valor auténticas, evitando errores que puedan afectar la relación con el cliente y la reputación de la marca.
+
 
       .subtitulo-destacado.mb-4(data-aos="flip-left")
         .subtitulo-destacado__icono
@@ -235,7 +236,7 @@
           tr
             td.text-start Falta de evidencia
             td.text-start Se realizan afirmaciones ambientales sin respaldo en datos verificables o certificaciones.
-            td.text-start Una marca asegura ser "100% sostenible" sin mostrar certificaciones ni procesos claros.
+            td.text-start Una marca asegura ser "100 % sostenible" sin mostrar certificaciones ni procesos claros.
           tr.bg-table-01
             td.text-start Irrelevancia
             td.text-start Se destacan atributos que no representan un valor real en sostenibilidad.

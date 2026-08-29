@@ -44,7 +44,7 @@
           .tarjeta.color-secundario-5.h-100.p-4.px-5(data-aos="zoom-in-right")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-9.order-2.order-lg-1.mb-0
-                p.mb-0 En el contexto del em comercio justo, la certificación FLO (#[em Fairtrade Labelling Organizations]) representa uno de los principales mecanismos de validación, garantizando que los productos cumplen criterios relacionados con precios justos, condiciones laborales dignas y sostenibilidad. Por su parte, la responsabilidad social empresarial (RSE) complementa este enfoque al integrar prácticas éticas y sostenibles en la gestión empresarial, fortaleciendo la coherencia entre la propuesta comercial y las acciones de la organización.
+                p.mb-0 En el contexto del comercio justo, la certificación FLO (Fairtrade Labelling Organizations) representa uno de los principales mecanismos de validación, garantizando que los productos cumplen criterios relacionados con precios justos, condiciones laborales dignas y sostenibilidad. Por su parte, la responsabilidad social empresarial (RSE) complementa este enfoque al integrar prácticas éticas y sostenibles en la gestión empresarial, fortaleciendo la coherencia entre la propuesta comercial y las acciones de la organización.
               .col-3.col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
                 figure.d-none.d-lg-block
                   img(src="@/assets/curso/tema1/img_8.svg", class="img-fluid", alt="Ícono de una moneda con símbolo de dólar rodeada de rayos, representando el precio justo para los productores.")
