@@ -92,7 +92,7 @@
       .tarjeta.tarjeta--blanca.p-3.p-lg-4
         p.col-12.col-lg-8.col-xl-10.mb-0
           strong Ejemplo aplicado.
-          |  H&M fue cuestionada por usar términos como "<em>conscious collection</em>" sin evidencia suficiente sobre impacto real. La ambigüedad y falta de información clara reflejan características de <em>greenwashing</em>. Esto generó dudas en consumidores, evidenciando la importancia de comunicar con transparencia y respaldo verificable en estrategias comerciales sostenibles.
+          |  H&M Hennes & Mauritz en Colombia opera legalmente como H&M Hennes & Mauritz Colombia fue cuestionada por usar términos como  "<em>conscious collection</em>" sin evidencia suficiente sobre impacto real. La ambigüedad y falta de información clara reflejan características de <em>greenwashing</em>. Esto generó dudas en consumidores, evidenciando la importancia de comunicar con transparencia y respaldo verificable en estrategias comerciales sostenibles.
 
     .bg_img_6
 

@@ -40,7 +40,7 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-9.order-2.order-lg-1.mb-0
-          p.mb-4(data-aos="zoom-in-right") Por su parte, el em comercio justo es un modelo que promueve relaciones comerciales equitativas, garantizando condiciones laborales dignas, precios justos y respeto por los derechos de los productores. Este enfoque busca reducir las desigualdades en la cadena de valor, fortaleciendo la transparencia y la responsabilidad social empresarial. Ambos conceptos están estrechamente relacionados, ya que integran sostenibilidad y equidad en los procesos comerciales.
+          p.mb-4(data-aos="zoom-in-right") Por su parte, el comercio justo es un modelo que promueve relaciones comerciales equitativas, garantizando condiciones laborales dignas, precios justos y respeto por los derechos de los productores. Este enfoque busca reducir las desigualdades en la cadena de valor, fortaleciendo la transparencia y la responsabilidad social empresarial. Ambos conceptos están estrechamente relacionados, ya que integran sostenibilidad y equidad en los procesos comerciales.
           .tarjeta.color-secundario-5.h-100.p-4.px-5(data-aos="zoom-in-right")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-9.order-2.order-lg-1.mb-0

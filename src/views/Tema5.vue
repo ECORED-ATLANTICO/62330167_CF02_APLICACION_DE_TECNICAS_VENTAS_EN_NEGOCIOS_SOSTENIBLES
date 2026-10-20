@@ -85,7 +85,7 @@
       .tarjeta.tarjeta--fondo-img-06.p-5.mb-5(data-aos="zoom-in-right")
         .tarjeta.tarjeta--blanca.p-3.p-lg-4
           p.col-12.col-lg-8.col-xl-10.mb-0
-            strong Ejemplo aplicado.
+            strong Ejemplo empresarial. 
             |  La empresa Sempli, dedicada al financiamiento de negocios, estructura sus propuestas comerciales para emprendedores en formato web interactivo. Incluye descripción del crédito, beneficios comparativos, simulador de cuotas, condiciones de desembolso y testimonios. Esto facilita que el cliente recorra la propuesta como si fuera una experiencia digital, aumentando su comprensión y disposición a concretar.
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")

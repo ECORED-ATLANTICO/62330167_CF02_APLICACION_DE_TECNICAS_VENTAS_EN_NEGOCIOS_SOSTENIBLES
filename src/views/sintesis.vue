@@ -7,7 +7,7 @@
         figure
           img(src="@/assets/curso/sintesis/img_1.png", class="img-fluid")
       .col-lg-7
-        p.mb-3 El componente formativo Venta sostenible, ofrece al aprendiz herramientas conceptuales y aplicadas para diseñar y comunicar propuestas comerciales sostenibles, integrando biocomercio, certificaciones, comunicación comercial y satisfacción del cliente. A través de estos elementos, se fortalece la capacidad de argumentar valor, responder objeciones y construir relaciones comerciales basadas en la confianza, alineando las decisiones comerciales con principios ambientales, sociales y económicos en diferentes contextos del mercado.
+        p.mb-3 El componente formativo <b>Venta sostenible</b>, ofrece al aprendiz herramientas conceptuales y aplicadas para diseñar y comunicar propuestas comerciales sostenibles, integrando biocomercio, certificaciones, comunicación comercial y satisfacción del cliente. A través de estos elementos, se fortalece la capacidad de argumentar valor, responder objeciones y construir relaciones comerciales basadas en la confianza, alineando las decisiones comerciales con principios ambientales, sociales y económicos en diferentes contextos del mercado.
         .tarjeta.color-secundario-5.p-4.mb-4(data-aos="zoom-in-right")
           .row.justfy-content-center.align-items-center
             .col-lg-10
